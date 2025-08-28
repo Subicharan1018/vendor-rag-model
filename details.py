@@ -15,10 +15,10 @@ options = webdriver.ChromeOptions()
 # Uncomment the next line if you want to run in headless mode
 # options.add_argument('--headless')
 driver = webdriver.Chrome(service=service, options=options)
-
+fn = 'Structured_Cabling_links'
 # Read the links.csv file
 links_data = []
-with open('rebar.csv', 'r', encoding='utf-8') as f:
+with open('links.csv', 'r', encoding='utf-8') as f:
     reader = csv.DictReader(f)
     for row in reader:
         links_data.append(row)
@@ -316,12 +316,12 @@ for index, item in enumerate(links_data):
     
     # Save progress after each product (optional)
     if (index + 1) % 5 == 0:
-        with open('all_products.json', 'w', encoding='utf-8') as f:
+        with open(fn+'.json', 'w', encoding='utf-8') as f:
             json.dump(all_products, f, indent=4, ensure_ascii=False)
         print(f"Saved progress after {index+1} products")
 
 # Save all products to a single JSON file
-with open('all_products.json', 'w', encoding='utf-8') as f:
+with open('all_products.json', 'w',encoding='utf-8') as f:
     json.dump(all_products, f, indent=4, ensure_ascii=False)
 
 print(f"Saved all product details for {len(all_products)} products to 'all_products.json'.")

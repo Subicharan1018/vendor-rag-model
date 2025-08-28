@@ -13,8 +13,7 @@ options.add_argument('--headless')  # Run without UI for efficiency
 driver = webdriver.Chrome(service=service, options=options)
 
 # The search URL
-search_url = "https://dir.indiamart.com/search.mp?ss=rebar+steel&mcatid=119126&catid=53&v=4&sref=as-rcnt%7Ckwd%3Dce+%7Cpos%3D1%7Ccat%3D-2%7Cmcat%3D-2%7Ckwd_len%3D3%7Ckwd_cnt%3D2&cityid=&prdsrc=1&tags=res:RC3|ktp:N0|stype:attr=1|mtp:S|wc:2|lcf:-1|qr_nm:gd|cs:14741|com-cf:nl|ptrs:na|mc:42729|cat:795|qry_typ:P|lang:en|flavl:0-1|rtn:0-0-0-0-4-5-1|qrd:250826|mrd:250826|prdt:250826|gli:G1I2"
-
+search_url = "https://dir.indiamart.com/search.mp?ss=ht+switchgear+panel&mcatid=162&catid=72&v=4&cityid=70627&prdsrc=1&src=as-popular%7Ckwd%3DHT+switchgear%7Cpos%3D1%7Ccat%3D72%7Cmcat%3D162%7Ckwd_len%3D13%7Ckwd_cnt%3D2&cq=navi+mumbai&tags=res:RC3|ktp:N0|stype:attr=1|mtp:G|wc:3|lcf:3|cq:navi%20mumbai|qr_nm:gl-gd|cs:17336|com-cf:nl|ptrs:na|mc:2869|cat:591|qry_typ:P|lang:en|rtn:3-0-0-0-2-3-2|tyr:2|qrd:250825|mrd:250828|prdt:250828|pfen:1|gli:G1I2"
 # Navigate to search page
 driver.get(search_url)
 time.sleep(3)  # Wait for dynamic load
@@ -37,7 +36,7 @@ for link in card_links:
     if href and 'proddetail' in href:  # Filter for product details
         links_data.append({'href': href, 'title': text})
 
-with open('rebar.csv', 'w', newline='', encoding='utf-8') as f:
+with open('links.csv', 'w', newline='', encoding='utf-8') as f:
     writer = csv.DictWriter(f, fieldnames=['href', 'title'])
     writer.writeheader()
     writer.writerows(links_data)
