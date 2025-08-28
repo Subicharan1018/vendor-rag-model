@@ -15,7 +15,7 @@ options = webdriver.ChromeOptions()
 # Uncomment the next line if you want to run in headless mode
 # options.add_argument('--headless')
 driver = webdriver.Chrome(service=service, options=options)
-fn = 'server_racks_links'
+fn = 'json/server_racks_links'
 # Read the links.csv file
 links_data = []
 with open('links.csv', 'r', encoding='utf-8') as f:
