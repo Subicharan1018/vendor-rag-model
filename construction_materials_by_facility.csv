@@ -1,0 +1,275 @@
+Facility_Type,Material_Category,Material_Name
+Workspace,Structural_Materials,"Steel Frame (Beams, Columns)"
+Workspace,Structural_Materials,"Reinforced Concrete (Foundation, Slabs)"
+Workspace,Structural_Materials,Composite Floor Systems
+Workspace,Structural_Materials,Steel Decking
+Workspace,Structural_Materials,Precast Concrete Elements
+Workspace,Envelope_Materials,Concrete Masonry Unit (CMU)
+Workspace,Envelope_Materials,Insulated CMU
+Workspace,Envelope_Materials,Limestone Cladding
+Workspace,Envelope_Materials,Autoclaved Aerated Concrete (AAC)
+Workspace,Envelope_Materials,Double/Triple Glazing
+Workspace,Envelope_Materials,Curtain Wall Systems
+Workspace,Interior_Materials,High-Pressure Laminate (HPL)
+Workspace,Interior_Materials,Vinyl Composition Tile
+Workspace,Interior_Materials,Carpet Tiles
+Workspace,Interior_Materials,Gypsum Drywall
+Workspace,Interior_Materials,Suspended Ceiling Systems
+Workspace,Interior_Materials,Acoustic Materials
+Workspace,Specialized_Components,HVAC Systems
+Workspace,Specialized_Components,Electrical Infrastructure
+Workspace,Specialized_Components,Fire Protection Systems
+Workspace,Specialized_Components,Security Systems
+Workspace,Specialized_Components,Elevators
+Health Center,Structural_Materials,Reinforced Concrete Frame
+Health Center,Structural_Materials,Steel Composite Systems
+Health Center,Structural_Materials,Precast Concrete
+Health Center,Structural_Materials,Steel Reinforcement
+Health Center,Structural_Materials,Heavy-Duty Floor Systems
+Health Center,Envelope_Materials,High-Performance Glazing
+Health Center,Envelope_Materials,Insulated Wall Systems
+Health Center,Envelope_Materials,Weather-Resistant Barriers
+Health Center,Envelope_Materials,Fire-Rated Construction
+Health Center,Envelope_Materials,Thermal Insulation
+Health Center,Interior_Materials,Antimicrobial Surfaces
+Health Center,Interior_Materials,Seamless Flooring Systems
+Health Center,Interior_Materials,Washable Wall Finishes
+Health Center,Interior_Materials,Lead-Lined Materials (Imaging)
+Health Center,Interior_Materials,Slip-Resistant Flooring
+Health Center,Interior_Materials,Infection Control Materials
+Health Center,Specialized_Components,Medical Gas Systems
+Health Center,Specialized_Components,Specialized HVAC (100% Outside Air)
+Health Center,Specialized_Components,Emergency Power Systems
+Health Center,Specialized_Components,Medical Equipment Infrastructure
+Health Center,Specialized_Components,Radiation Shielding Materials
+Health Center,Specialized_Components,Cleanroom Components
+Learning Hub,Structural_Materials,Reinforced Concrete (Primary)
+Learning Hub,Structural_Materials,Steel Frame Elements
+Learning Hub,Structural_Materials,Long-Span Concrete Beams
+Learning Hub,Structural_Materials,Composite Floor Systems
+Learning Hub,Structural_Materials,Foundation Systems
+Learning Hub,Envelope_Materials,High-Performance Glazing
+Learning Hub,Envelope_Materials,Insulated Concrete Panels
+Learning Hub,Envelope_Materials,Weather-Resistant Materials
+Learning Hub,Envelope_Materials,Acoustic Glazing
+Learning Hub,Envelope_Materials,Thermal Barriers
+Learning Hub,Interior_Materials,Flexible Flooring Systems
+Learning Hub,Interior_Materials,Movable Partition Systems
+Learning Hub,Interior_Materials,Acoustic Materials
+Learning Hub,Interior_Materials,Durable Surface Finishes
+Learning Hub,Interior_Materials,Anti-Vandal Materials
+Learning Hub,Interior_Materials,Interactive Surface Materials
+Learning Hub,Specialized_Components,Advanced AV Infrastructure
+Learning Hub,Specialized_Components,Smart Building Systems
+Learning Hub,Specialized_Components,Flexible Electrical Systems
+Learning Hub,Specialized_Components,Natural Ventilation Systems
+Learning Hub,Specialized_Components,Technology Integration Infrastructure
+Ambulatory Care,Structural_Materials,Steel Frame Construction
+Ambulatory Care,Structural_Materials,Reinforced Concrete
+Ambulatory Care,Structural_Materials,Composite Floor Systems
+Ambulatory Care,Structural_Materials,Seismic-Resistant Elements
+Ambulatory Care,Structural_Materials,Fire-Rated Assemblies
+Ambulatory Care,Envelope_Materials,High-Performance Glazing
+Ambulatory Care,Envelope_Materials,Insulated Wall Systems
+Ambulatory Care,Envelope_Materials,Fire-Resistant Materials
+Ambulatory Care,Envelope_Materials,Weather Protection Systems
+Ambulatory Care,Envelope_Materials,Acoustic Barriers
+Ambulatory Care,Interior_Materials,Healthcare-Grade Flooring
+Ambulatory Care,Interior_Materials,Antimicrobial Wall Finishes
+Ambulatory Care,Interior_Materials,Seamless Surface Materials
+Ambulatory Care,Interior_Materials,Slip-Resistant Materials
+Ambulatory Care,Interior_Materials,Easy-Clean Surfaces
+Ambulatory Care,Specialized_Components,Medical Infrastructure Systems
+Ambulatory Care,Specialized_Components,Specialized HVAC Systems
+Ambulatory Care,Specialized_Components,Emergency Systems
+Ambulatory Care,Specialized_Components,Infection Control Systems
+Ambulatory Care,Specialized_Components,Patient Privacy Systems
+Hospitality Hall,Structural_Materials,Steel Frame
+Hospitality Hall,Structural_Materials,Reinforced Concrete
+Hospitality Hall,Structural_Materials,Composite Construction
+Hospitality Hall,Structural_Materials,Long-Span Systems
+Hospitality Hall,Structural_Materials,Foundation Elements
+Hospitality Hall,Envelope_Materials,Architectural Glazing
+Hospitality Hall,Envelope_Materials,Stone Cladding
+Hospitality Hall,Envelope_Materials,Brick Veneer
+Hospitality Hall,Envelope_Materials,Insulated Wall Systems
+Hospitality Hall,Envelope_Materials,Weather-Resistant Materials
+Hospitality Hall,Interior_Materials,Hardwood Flooring
+Hospitality Hall,Interior_Materials,Ceramic Tile
+Hospitality Hall,Interior_Materials,Commercial Carpet
+Hospitality Hall,Interior_Materials,Decorative Wall Finishes
+Hospitality Hall,Interior_Materials,Acoustic Materials
+Hospitality Hall,Interior_Materials,Fire-Rated Materials
+Hospitality Hall,Specialized_Components,Commercial Kitchen Systems
+Hospitality Hall,Specialized_Components,Large-Scale HVAC
+Hospitality Hall,Specialized_Components,Audio-Visual Systems
+Hospitality Hall,Specialized_Components,Fire Suppression Systems
+Hospitality Hall,Specialized_Components,Hospitality Infrastructure
+Critical Ops,Structural_Materials,Reinforced Concrete (Primary)
+Critical Ops,Structural_Materials,Hardened Steel Systems
+Critical Ops,Structural_Materials,Blast-Resistant Materials
+Critical Ops,Structural_Materials,Redundant Structural Systems
+Critical Ops,Structural_Materials,Heavy-Duty Foundations
+Critical Ops,Envelope_Materials,Ballistic-Resistant Glazing
+Critical Ops,Envelope_Materials,Reinforced Wall Systems
+Critical Ops,Envelope_Materials,Security Barriers
+Critical Ops,Envelope_Materials,Fire-Resistant Materials
+Critical Ops,Envelope_Materials,EMI Shielding Materials
+Critical Ops,Interior_Materials,Anti-Static Flooring
+Critical Ops,Interior_Materials,Secure Wall Finishes
+Critical Ops,Interior_Materials,Blast-Resistant Materials
+Critical Ops,Interior_Materials,EMI-Compliant Materials
+Critical Ops,Interior_Materials,Security-Grade Finishes
+Critical Ops,Specialized_Components,Redundant Power Systems (N+1)
+Critical Ops,Specialized_Components,Backup Generator Systems
+Critical Ops,Specialized_Components,Uninterruptible Power Supply (UPS)
+Critical Ops,Specialized_Components,Advanced Security Systems
+Critical Ops,Specialized_Components,Mission-Critical HVAC
+Critical Ops,Specialized_Components,Communication Systems
+R&D Laboratories,Structural_Materials,Reinforced Concrete Frame
+R&D Laboratories,Structural_Materials,Steel Support Systems
+R&D Laboratories,Structural_Materials,Vibration-Resistant Construction
+R&D Laboratories,Structural_Materials,Heavy Load-Bearing Systems
+R&D Laboratories,Structural_Materials,Chemical-Resistant Concrete
+R&D Laboratories,Envelope_Materials,High-Performance Glazing
+R&D Laboratories,Envelope_Materials,Chemical-Resistant Materials
+R&D Laboratories,Envelope_Materials,Blast-Resistant Glazing
+R&D Laboratories,Envelope_Materials,Specialized Insulation
+R&D Laboratories,Envelope_Materials,Contamination Barriers
+R&D Laboratories,Interior_Materials,Chemical-Resistant Flooring
+R&D Laboratories,Interior_Materials,Laboratory-Grade Wall Finishes
+R&D Laboratories,Interior_Materials,Epoxy Floor Systems
+R&D Laboratories,Interior_Materials,Seamless Surface Materials
+R&D Laboratories,Interior_Materials,Anti-Static Materials
+R&D Laboratories,Specialized_Components,Laboratory Fume Hoods
+R&D Laboratories,Specialized_Components,Specialized Ventilation Systems
+R&D Laboratories,Specialized_Components,Chemical Storage Systems
+R&D Laboratories,Specialized_Components,Laboratory Utility Systems
+R&D Laboratories,Specialized_Components,Containment Systems
+R&D Laboratories,Specialized_Components,Safety Equipment Infrastructure
+Misc Build,Structural_Materials,Steel Frame
+Misc Build,Structural_Materials,Concrete Block
+Misc Build,Structural_Materials,Reinforced Concrete
+Misc Build,Structural_Materials,Wood Frame (Light Construction)
+Misc Build,Structural_Materials,Composite Materials
+Misc Build,Envelope_Materials,Metal Siding
+Misc Build,Envelope_Materials,Concrete Panels
+Misc Build,Envelope_Materials,Vinyl Siding
+Misc Build,Envelope_Materials,Standard Glazing
+Misc Build,Envelope_Materials,Basic Insulation
+Misc Build,Interior_Materials,Drywall
+Misc Build,Interior_Materials,Basic Flooring Materials
+Misc Build,Interior_Materials,Standard Paint Finishes
+Misc Build,Interior_Materials,Suspended Ceiling
+Misc Build,Interior_Materials,Basic Trim Materials
+Misc Build,Specialized_Components,Standard HVAC Systems
+Misc Build,Specialized_Components,Basic Electrical Systems
+Misc Build,Specialized_Components,Standard Plumbing
+Misc Build,Specialized_Components,Fire Safety Systems
+Misc Build,Specialized_Components,Basic Infrastructure
+Pharma Synth,Structural_Materials,Stainless Steel Frame
+Pharma Synth,Structural_Materials,Chemical-Resistant Concrete
+Pharma Synth,Structural_Materials,Corrosion-Resistant Steel
+Pharma Synth,Structural_Materials,Reinforced Foundation Systems
+Pharma Synth,Structural_Materials,Containment Structures
+Pharma Synth,Envelope_Materials,Chemical-Resistant Cladding
+Pharma Synth,Envelope_Materials,Explosion-Proof Glazing
+Pharma Synth,Envelope_Materials,Fire-Resistant Materials
+Pharma Synth,Envelope_Materials,Sealed Building Envelope
+Pharma Synth,Envelope_Materials,Contamination Barriers
+Pharma Synth,Interior_Materials,Chemical-Resistant Flooring
+Pharma Synth,Interior_Materials,Stainless Steel Surfaces
+Pharma Synth,Interior_Materials,Glass-Lined Equipment
+Pharma Synth,Interior_Materials,Seamless Wall Systems
+Pharma Synth,Interior_Materials,Cleanroom Materials
+Pharma Synth,Specialized_Components,Explosion-Proof Electrical Systems
+Pharma Synth,Specialized_Components,Chemical Processing Equipment
+Pharma Synth,Specialized_Components,Containment Systems
+Pharma Synth,Specialized_Components,Specialized HVAC with Filtration
+Pharma Synth,Specialized_Components,Safety and Emergency Systems
+Pharma Synth,Specialized_Components,Waste Treatment Systems
+Logistics Hub,Structural_Materials,Steel Frame Construction
+Logistics Hub,Structural_Materials,Concrete Tilt-Up Panels
+Logistics Hub,Structural_Materials,Pre-Engineered Building (PEB) Systems
+Logistics Hub,Structural_Materials,Heavy-Duty Floor Systems
+Logistics Hub,Structural_Materials,Long-Span Roof Systems
+Logistics Hub,Envelope_Materials,Metal Wall Panels
+Logistics Hub,Envelope_Materials,Insulated Panel Systems
+Logistics Hub,Envelope_Materials,Large Opening Systems
+Logistics Hub,Envelope_Materials,Weather-Resistant Materials
+Logistics Hub,Envelope_Materials,Loading Dock Equipment
+Logistics Hub,Interior_Materials,Industrial Flooring
+Logistics Hub,Interior_Materials,Warehouse Lighting Systems
+Logistics Hub,Interior_Materials,Minimal Interior Finishes
+Logistics Hub,Interior_Materials,Durable Surface Materials
+Logistics Hub,Interior_Materials,Safety Markings
+Logistics Hub,Specialized_Components,Material Handling Systems
+Logistics Hub,Specialized_Components,Warehouse Management Infrastructure
+Logistics Hub,Specialized_Components,Heavy-Duty HVAC Systems
+Logistics Hub,Specialized_Components,Fire Suppression Systems
+Logistics Hub,Specialized_Components,Security Systems
+Logistics Hub,Specialized_Components,Loading Equipment
+Smart Fabrication,Structural_Materials,Advanced Steel Systems
+Smart Fabrication,Structural_Materials,High-Performance Concrete
+Smart Fabrication,Structural_Materials,Composite Materials
+Smart Fabrication,Structural_Materials,Precision-Engineered Components
+Smart Fabrication,Structural_Materials,Modular Construction Elements
+Smart Fabrication,Envelope_Materials,Smart Glass Systems
+Smart Fabrication,Envelope_Materials,Adaptive Building Materials
+Smart Fabrication,Envelope_Materials,High-Performance Insulation
+Smart Fabrication,Envelope_Materials,Integrated Solar Materials
+Smart Fabrication,Envelope_Materials,Smart Facade Systems
+Smart Fabrication,Interior_Materials,Smart Flooring Systems
+Smart Fabrication,Interior_Materials,Interactive Wall Materials
+Smart Fabrication,Interior_Materials,Adaptive Interior Components
+Smart Fabrication,Interior_Materials,Technology-Integrated Materials
+Smart Fabrication,Interior_Materials,Responsive Surface Materials
+Smart Fabrication,Specialized_Components,Automated Manufacturing Equipment
+Smart Fabrication,Specialized_Components,Precision Control Systems
+Smart Fabrication,Specialized_Components,Smart Building Infrastructure
+Smart Fabrication,Specialized_Components,Advanced Material Handling
+Smart Fabrication,Specialized_Components,Quality Control Systems
+Smart Fabrication,Specialized_Components,Digital Integration Systems
+Commerce Space,Structural_Materials,Steel Frame Construction
+Commerce Space,Structural_Materials,Composite Floor Systems
+Commerce Space,Structural_Materials,Long-Span Beams
+Commerce Space,Structural_Materials,Flexible Structural Systems
+Commerce Space,Structural_Materials,Foundation Systems
+Commerce Space,Envelope_Materials,Large Glazing Systems
+Commerce Space,Envelope_Materials,Attractive Facade Materials
+Commerce Space,Envelope_Materials,Weather-Resistant Finishes
+Commerce Space,Envelope_Materials,Insulated Wall Systems
+Commerce Space,Envelope_Materials,Signage Integration Materials
+Commerce Space,Interior_Materials,Retail Flooring Systems
+Commerce Space,Interior_Materials,Flexible Partition Systems
+Commerce Space,Interior_Materials,Decorative Wall Finishes
+Commerce Space,Interior_Materials,Commercial Lighting Systems
+Commerce Space,Interior_Materials,Acoustic Materials
+Commerce Space,Specialized_Components,Retail Infrastructure Systems
+Commerce Space,Specialized_Components,Point-of-Sale Infrastructure
+Commerce Space,Specialized_Components,Security Systems
+Commerce Space,Specialized_Components,HVAC for Retail
+Commerce Space,Specialized_Components,Fire Protection Systems
+Commerce Space,Specialized_Components,Customer Amenity Systems
+Data Center,Structural_Materials,Reinforced Concrete (Primary)
+Data Center,Structural_Materials,Steel Frame Systems
+Data Center,Structural_Materials,Heavy-Duty Floor Systems
+Data Center,Structural_Materials,Vibration-Resistant Construction
+Data Center,Structural_Materials,Seismic-Resistant Elements
+Data Center,Envelope_Materials,Insulated Concrete Panels
+Data Center,Envelope_Materials,High-Security Glazing
+Data Center,Envelope_Materials,Fire-Resistant Materials
+Data Center,Envelope_Materials,Weather-Resistant Systems
+Data Center,Envelope_Materials,EMI Shielding Materials
+Data Center,Interior_Materials,Raised Floor Systems
+Data Center,Interior_Materials,Anti-Static Flooring
+Data Center,Interior_Materials,Fire-Resistant Materials
+Data Center,Interior_Materials,Cable Management Systems
+Data Center,Interior_Materials,Environmental Sealing Materials
+Data Center,Specialized_Components,Redundant Power Systems (N+1)
+Data Center,Specialized_Components,Precision Cooling Systems
+Data Center,Specialized_Components,Backup Generator Systems
+Data Center,Specialized_Components,UPS Systems
+Data Center,Specialized_Components,Advanced Fire Suppression
+Data Center,Specialized_Components,Security Infrastructure
+Data Center,Specialized_Components,High-Density Electrical Systems
