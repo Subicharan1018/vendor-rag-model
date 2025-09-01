@@ -1,0 +1,124 @@
+{
+    "name": "Baroque Fragonard for women",
+    "image_url": "https://fimgs.net/mdimg/perfume-thumbs/375x500.4962.jpg",
+    "brand": {
+        "name": "Fragonard",
+        "url": "https://www.fragrantica.com/designers/Fragonard.html",
+        "logo_url": "https://fimgs.net/mdimg/dizajneri/m.367.jpg"
+    },
+    "main_accords": [
+        {
+            "name": "warm spicy",
+            "intensity": 100.0
+        },
+        {
+            "name": "rose",
+            "intensity": 81.1542
+        },
+        {
+            "name": "musky",
+            "intensity": 70.3847
+        },
+        {
+            "name": "vanilla",
+            "intensity": 69.4872
+        },
+        {
+            "name": "woody",
+            "intensity": 69.1284
+        },
+        {
+            "name": "powdery",
+            "intensity": 68.0514
+        },
+        {
+            "name": "citrus",
+            "intensity": 64.3272
+        },
+        {
+            "name": "metallic",
+            "intensity": 48.8463
+        },
+        {
+            "name": "floral",
+            "intensity": 48.8463
+        },
+        {
+            "name": "leather",
+            "intensity": 45.0768
+        }
+    ],
+    "notes": {
+        "Top Notes": [],
+        "Middle Notes": [],
+        "Base Notes": [],
+        "General Notes": [
+            {
+                "name": "Rose",
+                "intensity": 1.0,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.105.jpg"
+            },
+            {
+                "name": "Ginger",
+                "intensity": 1.0,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.62.jpg"
+            },
+            {
+                "name": "Musk",
+                "intensity": 1.0,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.4.jpg"
+            },
+            {
+                "name": "Vanilla",
+                "intensity": 0.993691,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.74.jpg"
+            },
+            {
+                "name": "Saffron",
+                "intensity": 0.974022,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.55.jpg"
+            },
+            {
+                "name": "Guaiac Wood",
+                "intensity": 0.96025,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.36.jpg"
+            },
+            {
+                "name": "Bergamot",
+                "intensity": 0.735089,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.75.jpg"
+            }
+        ]
+    },
+    "pros": [],
+    "cons": [],
+    "photos": [
+        "https://fimgs.net/mdimg/perfume-social-cards/en-p_c_4962.jpeg",
+        "https://fimgs.net/photogram/p180/gf/gr/S75GATw4prstAbs7.jpg",
+        "https://fimgs.net/mdimg/secundar/fit.5482.jpg",
+        "https://fimgs.net/mdimg/secundar/fit.5483.jpg",
+        "https://fimgs.net/mdimg/secundar/fit.5484.jpg",
+        "https://fimgs.net/mdimg/secundar/fit.5485.jpg"
+    ],
+    "ownership_stats": {
+        "own": 31.8182,
+        "had": 25.3589,
+        "want": 42.823
+    },
+    "sentiment_stats": {
+        "love": 96.3636,
+        "like": 100.0,
+        "ok": 3.63636,
+        "dislike": 23.6364,
+        "hate": 0.0
+    },
+    "seasonality_stats": {
+        "winter": 92.6829,
+        "spring": 29.2683,
+        "summer": 31.7073,
+        "fall": 92.6829,
+        "day": 63.4146,
+        "night": 100.0
+    },
+    "url": "https://www.fragrantica.com/perfume/Fragonard/Baroque-4962.html"
+}

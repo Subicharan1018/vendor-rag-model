@@ -1,0 +1,155 @@
+{
+    "name": "Rosé Noir Gallagher Fragrances for women and men",
+    "image_url": "https://fimgs.net/mdimg/perfume-thumbs/375x500.71078.jpg",
+    "brand": {
+        "name": "Gallagher Fragrances",
+        "url": "https://www.fragrantica.com/designers/Gallagher-Fragrances.html",
+        "logo_url": "https://fimgs.net/mdimg/dizajneri/m.2798.jpg"
+    },
+    "main_accords": [
+        {
+            "name": "oud",
+            "intensity": 100.0
+        },
+        {
+            "name": "fruity",
+            "intensity": 90.2366
+        },
+        {
+            "name": "rose",
+            "intensity": 73.2892
+        },
+        {
+            "name": "sweet",
+            "intensity": 72.0921
+        },
+        {
+            "name": "metallic",
+            "intensity": 56.7103
+        },
+        {
+            "name": "woody",
+            "intensity": 52.1973
+        },
+        {
+            "name": "floral",
+            "intensity": 48.2366
+        },
+        {
+            "name": "amber",
+            "intensity": 47.9603
+        },
+        {
+            "name": "honey",
+            "intensity": 47.5001
+        },
+        {
+            "name": "patchouli",
+            "intensity": 44.737
+        }
+    ],
+    "notes": {
+        "Top Notes": [],
+        "Middle Notes": [],
+        "Base Notes": [],
+        "General Notes": [
+            {
+                "name": "Black Leather",
+                "intensity": 1.0,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.1211.jpg"
+            },
+            {
+                "name": "Agarwood (Oud)",
+                "intensity": 1.0,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.114.jpg"
+            },
+            {
+                "name": "Turkish Rose",
+                "intensity": 0.974022,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.105.jpg"
+            },
+            {
+                "name": "Dried Apple Crisp",
+                "intensity": 0.934753,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.908.jpg"
+            },
+            {
+                "name": "Plum",
+                "intensity": 0.919314,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.171.jpg"
+            },
+            {
+                "name": "Metallic notes",
+                "intensity": 0.886308,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.458.jpg"
+            },
+            {
+                "name": "Honey",
+                "intensity": 0.82556,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.181.jpg"
+            },
+            {
+                "name": "Patchouli",
+                "intensity": 0.810072,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.34.jpg"
+            },
+            {
+                "name": "Labdanum",
+                "intensity": 0.7994,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.15.jpg"
+            },
+            {
+                "name": "Brown sugar",
+                "intensity": 0.793955,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.521.jpg"
+            },
+            {
+                "name": "Australian Sandalwood",
+                "intensity": 0.765573,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.33.jpg"
+            },
+            {
+                "name": "Tonka Bean",
+                "intensity": 0.759653,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.73.jpg"
+            },
+            {
+                "name": "Vanilla",
+                "intensity": 0.759653,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.74.jpg"
+            },
+            {
+                "name": "White Musk",
+                "intensity": 0.735089,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.4.jpg"
+            }
+        ]
+    },
+    "pros": [],
+    "cons": [],
+    "photos": [
+        "https://fimgs.net/mdimg/perfume-social-cards/en-p_c_71078.jpeg",
+        "https://fimgs.net/photogram/p180/dw/f5/RLeqyiVHo9xaCl5V.jpg"
+    ],
+    "ownership_stats": {
+        "own": 30.3977,
+        "had": 9.94318,
+        "want": 59.6591
+    },
+    "sentiment_stats": {
+        "love": 100.0,
+        "like": 50.0,
+        "ok": 26.6667,
+        "dislike": 25.0,
+        "hate": 16.6667
+    },
+    "seasonality_stats": {
+        "winter": 100.0,
+        "spring": 35.0,
+        "summer": 13.3333,
+        "fall": 93.3333,
+        "day": 40.0,
+        "night": 90.0
+    },
+    "url": "https://www.fragrantica.com/perfume/Gallagher-Fragrances/Rose-Noir-71078.html"
+}

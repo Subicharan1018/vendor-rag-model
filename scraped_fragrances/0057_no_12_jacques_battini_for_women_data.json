@@ -1,0 +1,112 @@
+{
+    "name": "No. 12 Jacques Battini for women",
+    "image_url": "https://fimgs.net/mdimg/perfume-thumbs/375x500.29049.jpg",
+    "brand": {
+        "name": "Jacques Battini",
+        "url": "https://www.fragrantica.com/designers/Jacques-Battini.html",
+        "logo_url": "https://fimgs.net/mdimg/dizajneri/m.2131.jpg"
+    },
+    "main_accords": [
+        {
+            "name": "rose",
+            "intensity": 100.0
+        },
+        {
+            "name": "musky",
+            "intensity": 86.0001
+        },
+        {
+            "name": "white floral",
+            "intensity": 86.0001
+        },
+        {
+            "name": "fresh spicy",
+            "intensity": 72.0002
+        },
+        {
+            "name": "fruity",
+            "intensity": 72.0002
+        },
+        {
+            "name": "floral",
+            "intensity": 62.1999
+        },
+        {
+            "name": "aromatic",
+            "intensity": 59.3999
+        },
+        {
+            "name": "powdery",
+            "intensity": 58.0003
+        },
+        {
+            "name": "sweet",
+            "intensity": 56.5998
+        },
+        {
+            "name": "green",
+            "intensity": 55.2002
+        }
+    ],
+    "notes": {
+        "Top Notes": [
+            {
+                "name": "Basil",
+                "intensity": 0.735089,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.119.jpg"
+            },
+            {
+                "name": "Fruity Notes",
+                "intensity": 0.735089,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.320.jpg"
+            }
+        ],
+        "Middle Notes": [
+            {
+                "name": "Rose",
+                "intensity": 1.0,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.105.jpg"
+            },
+            {
+                "name": "Jasmine",
+                "intensity": 0.967204,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.14.jpg"
+            }
+        ],
+        "Base Notes": [
+            {
+                "name": "Musk",
+                "intensity": 0.967204,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.4.jpg"
+            }
+        ],
+        "General Notes": []
+    },
+    "pros": [],
+    "cons": [],
+    "photos": [
+        "https://fimgs.net/mdimg/perfume-social-cards/en-p_c_29049.jpeg",
+        "https://fimgs.net/mdimg/secundar/fit.30362.jpg"
+    ],
+    "ownership_stats": {
+        "own": 25.0,
+        "had": 18.75,
+        "want": 56.25
+    },
+    "sentiment_stats": {
+        "love": 66.6667,
+        "like": 100.0,
+        "ok": 33.3333,
+        "dislike": 0.0,
+        "hate": 0.0
+    },
+    "seasonality_stats": {
+        "winter": 75.0,
+        "spring": 100.0,
+        "summer": 75.0,
+        "fall": 75.0,
+        "day": 100.0,
+        "night": 50.0
+    },
+    "url": "https://www.fragrantica.com/perfume/Jacques-Battini/No-12-29049.html"
+}

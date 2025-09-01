@@ -1,0 +1,131 @@
+{
+    "name": "50's glam Avon for women",
+    "image_url": "https://fimgs.net/mdimg/perfume-thumbs/375x500.5882.jpg",
+    "brand": {
+        "name": "Avon",
+        "url": "https://www.fragrantica.com/designers/Avon.html",
+        "logo_url": "https://fimgs.net/mdimg/dizajneri/m.7.jpg"
+    },
+    "main_accords": [
+        {
+            "name": "white floral",
+            "intensity": 100.0
+        },
+        {
+            "name": "rose",
+            "intensity": 96.4997
+        },
+        {
+            "name": "fruity",
+            "intensity": 92.86
+        },
+        {
+            "name": "sweet",
+            "intensity": 85.2998
+        },
+        {
+            "name": "earthy",
+            "intensity": 76.1302
+        },
+        {
+            "name": "mossy",
+            "intensity": 71.2998
+        },
+        {
+            "name": "woody",
+            "intensity": 66.6798
+        },
+        {
+            "name": "musky",
+            "intensity": 62.1999
+        },
+        {
+            "name": "green",
+            "intensity": 59.7847
+        },
+        {
+            "name": "lactonic",
+            "intensity": 53.0999
+        }
+    ],
+    "notes": {
+        "Top Notes": [
+            {
+                "name": "Persimmon",
+                "intensity": 1.0,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.341.jpg"
+            },
+            {
+                "name": "Red Apple",
+                "intensity": 0.915348,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.144.jpg"
+            },
+            {
+                "name": "Ivy",
+                "intensity": 0.810072,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.192.jpg"
+            }
+        ],
+        "Middle Notes": [
+            {
+                "name": "Rose",
+                "intensity": 1.0,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.105.jpg"
+            },
+            {
+                "name": "Gardenia",
+                "intensity": 1.0,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.19.jpg"
+            },
+            {
+                "name": "Honeysuckle",
+                "intensity": 0.735089,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.86.jpg"
+            }
+        ],
+        "Base Notes": [
+            {
+                "name": "Oakmoss",
+                "intensity": 0.974022,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.39.jpg"
+            },
+            {
+                "name": "Musk",
+                "intensity": 0.911338,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.4.jpg"
+            },
+            {
+                "name": "Vetiver",
+                "intensity": 0.881966,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.2.jpg"
+            }
+        ],
+        "General Notes": []
+    },
+    "pros": [],
+    "cons": [],
+    "photos": [
+        "https://fimgs.net/mdimg/perfume-social-cards/en-p_c_5882.jpeg"
+    ],
+    "ownership_stats": {
+        "own": 35.3591,
+        "had": 47.8821,
+        "want": 16.7587
+    },
+    "sentiment_stats": {
+        "love": 61.8644,
+        "like": 100.0,
+        "ok": 7.62712,
+        "dislike": 64.4068,
+        "hate": 0.0
+    },
+    "seasonality_stats": {
+        "winter": 22.1239,
+        "spring": 76.1062,
+        "summer": 30.9735,
+        "fall": 38.9381,
+        "day": 100.0,
+        "night": 35.3982
+    },
+    "url": "https://www.fragrantica.com/perfume/Avon/50-s-glam-5882.html"
+}

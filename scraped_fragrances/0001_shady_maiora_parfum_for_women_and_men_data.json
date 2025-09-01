@@ -1,0 +1,134 @@
+{
+    "name": "Shady Maiora Parfum for women and men",
+    "image_url": "https://fimgs.net/mdimg/perfume-thumbs/375x500.75400.jpg",
+    "brand": {
+        "name": "Maiora Parfum",
+        "url": "https://www.fragrantica.com/designers/Maiora-Parfum.html",
+        "logo_url": "https://fimgs.net/mdimg/dizajneri/m.4822.jpg"
+    },
+    "main_accords": [
+        {
+            "name": "woody",
+            "intensity": 100.0
+        },
+        {
+            "name": "aromatic",
+            "intensity": 98.5107
+        },
+        {
+            "name": "green",
+            "intensity": 77.6594
+        },
+        {
+            "name": "fresh spicy",
+            "intensity": 75.4254
+        },
+        {
+            "name": "lavender",
+            "intensity": 67.234
+        },
+        {
+            "name": "patchouli",
+            "intensity": 52.3402
+        },
+        {
+            "name": "warm spicy",
+            "intensity": 47.1275
+        }
+    ],
+    "notes": {
+        "Top Notes": [
+            {
+                "name": "Mint",
+                "intensity": 1.0,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.160.jpg"
+            },
+            {
+                "name": "Lavender",
+                "intensity": 1.0,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.1.jpg"
+            },
+            {
+                "name": "Nutmeg",
+                "intensity": 0.735089,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.59.jpg"
+            },
+            {
+                "name": "elemi",
+                "intensity": 0.735089,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.390.jpg"
+            }
+        ],
+        "Middle Notes": [
+            {
+                "name": "Cypress",
+                "intensity": 1.0,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.186.jpg"
+            },
+            {
+                "name": "Sandalwood",
+                "intensity": 0.903183,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.33.jpg"
+            },
+            {
+                "name": "Saffron",
+                "intensity": 0.735089,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.55.jpg"
+            },
+            {
+                "name": "Cypriol Oil or Nagarmotha",
+                "intensity": 0.735089,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.406.jpg"
+            }
+        ],
+        "Base Notes": [
+            {
+                "name": "Patchouli",
+                "intensity": 0.967204,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.34.jpg"
+            },
+            {
+                "name": "Precious Woods",
+                "intensity": 0.903183,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.315.jpg"
+            },
+            {
+                "name": "Amber",
+                "intensity": 0.830589,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.54.jpg"
+            },
+            {
+                "name": "Musk",
+                "intensity": 0.830589,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.4.jpg"
+            }
+        ],
+        "General Notes": []
+    },
+    "pros": [],
+    "cons": [],
+    "photos": [
+        "https://fimgs.net/mdimg/perfume-social-cards/en-p_c_75400.jpeg"
+    ],
+    "ownership_stats": {
+        "own": 30.6122,
+        "had": 6.12245,
+        "want": 63.2653
+    },
+    "sentiment_stats": {
+        "love": 100.0,
+        "like": 57.1429,
+        "ok": 14.2857,
+        "dislike": 0.0,
+        "hate": 14.2857
+    },
+    "seasonality_stats": {
+        "winter": 25.0,
+        "spring": 100.0,
+        "summer": 87.5,
+        "fall": 50.0,
+        "day": 87.5,
+        "night": 75.0
+    },
+    "url": "https://www.fragrantica.com/perfume/Maiora-Parfum/Shady-75400.html"
+}

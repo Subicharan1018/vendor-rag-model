@@ -1,0 +1,112 @@
+{
+    "name": "Sasora Oud Abdul Samad Al Qurashi for women and men",
+    "image_url": "https://fimgs.net/mdimg/perfume-thumbs/375x500.82158.jpg",
+    "brand": {
+        "name": "Abdul Samad Al Qurashi",
+        "url": "https://www.fragrantica.com/designers/Abdul-Samad-Al-Qurashi.html",
+        "logo_url": "https://fimgs.net/mdimg/dizajneri/m.1716.jpg"
+    },
+    "main_accords": [
+        {
+            "name": "anis",
+            "intensity": 100.0
+        },
+        {
+            "name": "fruity",
+            "intensity": 100.0
+        },
+        {
+            "name": "soft spicy",
+            "intensity": 100.0
+        },
+        {
+            "name": "vanilla",
+            "intensity": 100.0
+        },
+        {
+            "name": "warm spicy",
+            "intensity": 84.4442
+        },
+        {
+            "name": "sweet",
+            "intensity": 78.9998
+        },
+        {
+            "name": "powdery",
+            "intensity": 68.8889
+        },
+        {
+            "name": "floral",
+            "intensity": 56.4446
+        }
+    ],
+    "notes": {
+        "Top Notes": [
+            {
+                "name": "Fruity Notes",
+                "intensity": 1.0,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.320.jpg"
+            },
+            {
+                "name": "Star Anise",
+                "intensity": 1.0,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.100.jpg"
+            },
+            {
+                "name": "Taif Rose",
+                "intensity": 0.735089,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.115.jpg"
+            }
+        ],
+        "Middle Notes": [
+            {
+                "name": "Spices",
+                "intensity": 1.0,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.321.jpg"
+            },
+            {
+                "name": "Vanilla",
+                "intensity": 1.0,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.74.jpg"
+            }
+        ],
+        "Base Notes": [
+            {
+                "name": "Agarwood (Oud)",
+                "intensity": 0.868629,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.114.jpg"
+            }
+        ],
+        "General Notes": []
+    },
+    "pros": [],
+    "cons": [],
+    "photos": [
+        "https://fimgs.net/mdimg/perfume-social-cards/en-p_c_82158.jpeg",
+        "https://fimgs.net/photogram/p180/ea/g8/qJNGuHXk9xyEqqWj.jpg",
+        "https://fimgs.net/photogram/p180/wu/tl/lPE4orVXbyswT1PG.jpg",
+        "https://fimgs.net/photogram/p180/ar/gf/pfaHv5OdiZbpX6tu.jpg",
+        "https://fimgs.net/photogram/p180/mf/lk/RmSTV1arx4GOlWRh.jpg"
+    ],
+    "ownership_stats": {
+        "own": 38.4615,
+        "had": 1.92308,
+        "want": 59.6154
+    },
+    "sentiment_stats": {
+        "love": 100.0,
+        "like": 25.0,
+        "ok": 12.5,
+        "dislike": 12.5,
+        "hate": 12.5
+    },
+    "seasonality_stats": {
+        "winter": 100.0,
+        "spring": 75.0,
+        "summer": 25.0,
+        "fall": 100.0,
+        "day": 50.0,
+        "night": 100.0
+    },
+    "url": "https://www.fragrantica.com/perfume/Abdul-Samad-Al-Qurashi/Sasora-Oud-82158.html"
+}

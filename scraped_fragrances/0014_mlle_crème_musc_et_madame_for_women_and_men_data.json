@@ -1,0 +1,119 @@
+{
+    "name": "MLLE Crème Musc et Madame for women and men",
+    "image_url": "https://fimgs.net/mdimg/perfume-thumbs/375x500.66579.jpg",
+    "brand": {
+        "name": "Musc et Madame",
+        "url": "https://www.fragrantica.com/designers/Musc-et-Madame.html",
+        "logo_url": "https://fimgs.net/mdimg/dizajneri/m.2354.jpg"
+    },
+    "main_accords": [
+        {
+            "name": "powdery",
+            "intensity": 100.0
+        },
+        {
+            "name": "white floral",
+            "intensity": 95.6247
+        },
+        {
+            "name": "musky",
+            "intensity": 95.6247
+        },
+        {
+            "name": "woody",
+            "intensity": 84.6875
+        },
+        {
+            "name": "sweet",
+            "intensity": 79.7657
+        },
+        {
+            "name": "floral",
+            "intensity": 75.9376
+        },
+        {
+            "name": "fresh",
+            "intensity": 69.375
+        },
+        {
+            "name": "citrus",
+            "intensity": 62.8124
+        },
+        {
+            "name": "vanilla",
+            "intensity": 62.8124
+        },
+        {
+            "name": "nutty",
+            "intensity": 51.8751
+        }
+    ],
+    "notes": {
+        "Top Notes": [],
+        "Middle Notes": [],
+        "Base Notes": [],
+        "General Notes": [
+            {
+                "name": "Jasmine",
+                "intensity": 1.0,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.14.jpg"
+            },
+            {
+                "name": "White Musk",
+                "intensity": 1.0,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.4.jpg"
+            },
+            {
+                "name": "Sandalwood",
+                "intensity": 1.0,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.33.jpg"
+            },
+            {
+                "name": "Marzipan",
+                "intensity": 0.903183,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.232.jpg"
+            },
+            {
+                "name": "Citron",
+                "intensity": 0.735089,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.373.jpg"
+            },
+            {
+                "name": "Peony",
+                "intensity": 0.735089,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.155.jpg"
+            },
+            {
+                "name": "Bourbon Vanilla",
+                "intensity": 0.735089,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.74.jpg"
+            }
+        ]
+    },
+    "pros": [],
+    "cons": [],
+    "photos": [
+        "https://fimgs.net/mdimg/perfume-social-cards/en-p_c_66579.jpeg"
+    ],
+    "ownership_stats": {
+        "own": 12.963,
+        "had": 3.7037,
+        "want": 83.3333
+    },
+    "sentiment_stats": {
+        "love": 100.0,
+        "like": 100.0,
+        "ok": 0.0,
+        "dislike": 0.0,
+        "hate": 0.0
+    },
+    "seasonality_stats": {
+        "winter": 85.7143,
+        "spring": 100.0,
+        "summer": 100.0,
+        "fall": 85.7143,
+        "day": 100.0,
+        "night": 71.4286
+    },
+    "url": "https://www.fragrantica.com/perfume/Musc-et-Madame/MLLE-Creme-66579.html"
+}

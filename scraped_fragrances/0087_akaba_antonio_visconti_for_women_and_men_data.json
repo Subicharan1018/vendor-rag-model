@@ -1,0 +1,140 @@
+{
+    "name": "Akaba Antonio Visconti for women and men",
+    "image_url": "https://fimgs.net/mdimg/perfume-thumbs/375x500.11209.jpg",
+    "brand": {
+        "name": "Antonio Visconti",
+        "url": "https://www.fragrantica.com/designers/Antonio-Visconti.html",
+        "logo_url": "https://fimgs.net/mdimg/dizajneri/m.1138.jpg"
+    },
+    "main_accords": [
+        {
+            "name": "vanilla",
+            "intensity": 100.0
+        },
+        {
+            "name": "sweet",
+            "intensity": 90.9341
+        },
+        {
+            "name": "tobacco",
+            "intensity": 76.0719
+        },
+        {
+            "name": "woody",
+            "intensity": 74.1402
+        },
+        {
+            "name": "aromatic",
+            "intensity": 66.1145
+        },
+        {
+            "name": "soft spicy",
+            "intensity": 63.5138
+        },
+        {
+            "name": "patchouli",
+            "intensity": 58.9808
+        },
+        {
+            "name": "balsamic",
+            "intensity": 58.2006
+        },
+        {
+            "name": "warm spicy",
+            "intensity": 58.1633
+        },
+        {
+            "name": "herbal",
+            "intensity": 57.4949
+        }
+    ],
+    "notes": {
+        "Top Notes": [
+            {
+                "name": "Patchouli",
+                "intensity": 0.96025,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.34.jpg"
+            },
+            {
+                "name": "Artemisia",
+                "intensity": 0.942228,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.47.jpg"
+            },
+            {
+                "name": "Amalfi Lemon",
+                "intensity": 0.765573,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.77.jpg"
+            }
+        ],
+        "Middle Notes": [
+            {
+                "name": "Agarwood (Oud)",
+                "intensity": 0.859468,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.114.jpg"
+            },
+            {
+                "name": "Sandalwood",
+                "intensity": 0.735089,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.33.jpg"
+            },
+            {
+                "name": "Virginia Cedar",
+                "intensity": 0.735089,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.41.jpg"
+            }
+        ],
+        "Base Notes": [
+            {
+                "name": "Tobacco",
+                "intensity": 1.0,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.96.jpg"
+            },
+            {
+                "name": "Tonka Bean",
+                "intensity": 1.0,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.73.jpg"
+            },
+            {
+                "name": "Vanille",
+                "intensity": 1.0,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.74.jpg"
+            },
+            {
+                "name": "Licorice",
+                "intensity": 0.99686,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.195.jpg"
+            }
+        ],
+        "General Notes": []
+    },
+    "pros": [],
+    "cons": [],
+    "photos": [
+        "https://fimgs.net/mdimg/perfume-social-cards/en-p_c_11209.jpeg",
+        "https://fimgs.net/photogram/p180/q4/ju/hME13gEAiFrysYsz.jpg",
+        "https://fimgs.net/mdimg/secundar/fit.13151.jpg",
+        "https://fimgs.net/mdimg/secundar/fit.13230.jpg",
+        "https://fimgs.net/mdimg/secundar/fit.13231.jpg"
+    ],
+    "ownership_stats": {
+        "own": 26.1589,
+        "had": 18.3775,
+        "want": 55.4636
+    },
+    "sentiment_stats": {
+        "love": 100.0,
+        "like": 81.8182,
+        "ok": 3.0303,
+        "dislike": 37.8788,
+        "hate": 0.0
+    },
+    "seasonality_stats": {
+        "winter": 96.7742,
+        "spring": 19.3548,
+        "summer": 12.9032,
+        "fall": 100.0,
+        "day": 54.8387,
+        "night": 87.0968
+    },
+    "url": "https://www.fragrantica.com/perfume/Antonio-Visconti/Akaba-11209.html"
+}

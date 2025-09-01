@@ -1,0 +1,138 @@
+{
+    "name": "Cedrat Gingembre Jul et Mad Paris for women and men",
+    "image_url": "https://fimgs.net/mdimg/perfume-thumbs/375x500.72311.jpg",
+    "brand": {
+        "name": "Jul et Mad Paris",
+        "url": "https://www.fragrantica.com/designers/Jul-et-Mad-Paris.html",
+        "logo_url": "https://fimgs.net/mdimg/dizajneri/m.1629.jpg"
+    },
+    "main_accords": [
+        {
+            "name": "citrus",
+            "intensity": 100.0
+        },
+        {
+            "name": "fresh spicy",
+            "intensity": 89.2307
+        },
+        {
+            "name": "aromatic",
+            "intensity": 77.6922
+        },
+        {
+            "name": "woody",
+            "intensity": 75.7695
+        },
+        {
+            "name": "mineral",
+            "intensity": 68.4617
+        },
+        {
+            "name": "marine",
+            "intensity": 56.9232
+        },
+        {
+            "name": "fresh",
+            "intensity": 56.5384
+        },
+        {
+            "name": "powdery",
+            "intensity": 50.7694
+        }
+    ],
+    "notes": {
+        "Top Notes": [
+            {
+                "name": "Ginger",
+                "intensity": 1.0,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.62.jpg"
+            },
+            {
+                "name": "Citron",
+                "intensity": 1.0,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.373.jpg"
+            },
+            {
+                "name": "Lime",
+                "intensity": 0.967204,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.78.jpg"
+            },
+            {
+                "name": "Bergamot",
+                "intensity": 0.845299,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.75.jpg"
+            }
+        ],
+        "Middle Notes": [
+            {
+                "name": "Mineral notes",
+                "intensity": 1.0,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.820.jpg"
+            },
+            {
+                "name": "Sea Notes",
+                "intensity": 1.0,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.324.jpg"
+            },
+            {
+                "name": "Juniper Berries",
+                "intensity": 0.967204,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.143.jpg"
+            },
+            {
+                "name": "White Amber",
+                "intensity": 0.793955,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.54.jpg"
+            }
+        ],
+        "Base Notes": [
+            {
+                "name": "Sandalwood",
+                "intensity": 0.967204,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.33.jpg"
+            },
+            {
+                "name": "Musk",
+                "intensity": 0.845299,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.4.jpg"
+            },
+            {
+                "name": "Cedar",
+                "intensity": 0.735089,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.41.jpg"
+            },
+            {
+                "name": "Guaiac Wood",
+                "intensity": 0.735089,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.36.jpg"
+            }
+        ],
+        "General Notes": []
+    },
+    "pros": [],
+    "cons": [],
+    "photos": [
+        "https://fimgs.net/mdimg/perfume-social-cards/en-p_c_72311.jpeg"
+    ],
+    "ownership_stats": {
+        "own": 17.9104,
+        "had": 22.3881,
+        "want": 59.7015
+    },
+    "sentiment_stats": {
+        "love": 66.6667,
+        "like": 100.0,
+        "ok": 0.0,
+        "dislike": 44.4444,
+        "hate": 11.1111
+    },
+    "seasonality_stats": {
+        "winter": 0.0,
+        "spring": 85.7143,
+        "summer": 100.0,
+        "fall": 42.8571,
+        "day": 100.0,
+        "night": 14.2857
+    },
+    "url": "https://www.fragrantica.com/perfume/Jul-et-Mad-Paris/Cedrat-Gingembre-72311.html"
+}

@@ -1,0 +1,131 @@
+{
+    "name": "Muguet Froissé & Coquelicot Les Parfums Suspendus for women and men",
+    "image_url": "https://fimgs.net/mdimg/perfume-thumbs/375x500.40681.jpg",
+    "brand": {
+        "name": "Les Parfums Suspendus",
+        "url": "https://www.fragrantica.com/designers/Les-Parfums-Suspendus.html",
+        "logo_url": "https://fimgs.net/mdimg/dizajneri/m.2830.jpg"
+    },
+    "main_accords": [
+        {
+            "name": "citrus",
+            "intensity": 100.0
+        },
+        {
+            "name": "white floral",
+            "intensity": 98.9651
+        },
+        {
+            "name": "powdery",
+            "intensity": 92.0687
+        },
+        {
+            "name": "floral",
+            "intensity": 85.1722
+        },
+        {
+            "name": "fresh spicy",
+            "intensity": 74.8272
+        },
+        {
+            "name": "woody",
+            "intensity": 73.103
+        },
+        {
+            "name": "fresh",
+            "intensity": 71.3793
+        },
+        {
+            "name": "green",
+            "intensity": 67.9308
+        },
+        {
+            "name": "musky",
+            "intensity": 64.4828
+        },
+        {
+            "name": "violet",
+            "intensity": 64.4828
+        }
+    ],
+    "notes": {
+        "Top Notes": [
+            {
+                "name": "Orange",
+                "intensity": 0.735089,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.80.jpg"
+            },
+            {
+                "name": "Bergamot",
+                "intensity": 0.735089,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.75.jpg"
+            }
+        ],
+        "Middle Notes": [
+            {
+                "name": "Lily-of-the-Valley",
+                "intensity": 0.735089,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.109.jpg"
+            },
+            {
+                "name": "Jasmine",
+                "intensity": 0.735089,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.14.jpg"
+            },
+            {
+                "name": "Violet",
+                "intensity": 0.735089,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.116.jpg"
+            },
+            {
+                "name": "Poppy",
+                "intensity": 0.735089,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.339.jpg"
+            },
+            {
+                "name": "Tea",
+                "intensity": 0.735089,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.106.jpg"
+            }
+        ],
+        "Base Notes": [
+            {
+                "name": "White Cedar Extract",
+                "intensity": 0.735089,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.41.jpg"
+            },
+            {
+                "name": "Musk",
+                "intensity": 0.735089,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.4.jpg"
+            }
+        ],
+        "General Notes": []
+    },
+    "pros": [],
+    "cons": [],
+    "photos": [
+        "https://fimgs.net/mdimg/secundar/fit.42922.jpg"
+    ],
+    "ownership_stats": {
+        "own": 0.0,
+        "had": 9.09091,
+        "want": 90.9091
+    },
+    "sentiment_stats": {
+        "love": 100.0,
+        "like": 100.0,
+        "ok": 100.0,
+        "dislike": 100.0,
+        "hate": 100.0
+    },
+    "seasonality_stats": {
+        "winter": 0.0,
+        "spring": 100.0,
+        "summer": 0.0,
+        "fall": 100.0,
+        "day": 100.0,
+        "night": 100.0
+    },
+    "url": "https://www.fragrantica.com/perfume/Les-Parfums-Suspendus/Muguet-Froisse-Coquelicot-40681.html"
+}

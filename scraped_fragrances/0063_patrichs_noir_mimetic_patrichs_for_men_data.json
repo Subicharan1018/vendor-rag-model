@@ -1,0 +1,117 @@
+{
+    "name": "Patrichs Noir Mimetic Patrichs for men",
+    "image_url": "https://fimgs.net/mdimg/perfume-thumbs/375x500.76192.jpg",
+    "brand": {
+        "name": "Patrichs",
+        "url": "https://www.fragrantica.com/designers/Patrichs.html",
+        "logo_url": "https://fimgs.net/mdimg/dizajneri/m.4883.jpg"
+    },
+    "main_accords": [
+        {
+            "name": "aromatic",
+            "intensity": 100.0
+        },
+        {
+            "name": "fresh spicy",
+            "intensity": 97.6667
+        },
+        {
+            "name": "woody",
+            "intensity": 76.6667
+        },
+        {
+            "name": "citrus",
+            "intensity": 76.6667
+        },
+        {
+            "name": "warm spicy",
+            "intensity": 63.8334
+        },
+        {
+            "name": "leather",
+            "intensity": 53.3333
+        },
+        {
+            "name": "vanilla",
+            "intensity": 46.3335
+        }
+    ],
+    "notes": {
+        "Top Notes": [
+            {
+                "name": "Cardamom",
+                "intensity": 0.735089,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.63.jpg"
+            },
+            {
+                "name": "Bergamot",
+                "intensity": 0.735089,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.75.jpg"
+            },
+            {
+                "name": "Lemon",
+                "intensity": 0.735089,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.77.jpg"
+            }
+        ],
+        "Middle Notes": [
+            {
+                "name": "Nutmeg",
+                "intensity": 0.735089,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.59.jpg"
+            },
+            {
+                "name": "Cypress",
+                "intensity": 0.735089,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.186.jpg"
+            },
+            {
+                "name": "Geranium",
+                "intensity": 0.735089,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.21.jpg"
+            }
+        ],
+        "Base Notes": [
+            {
+                "name": "Leather",
+                "intensity": 0.735089,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.156.jpg"
+            },
+            {
+                "name": "Cedar",
+                "intensity": 0.735089,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.41.jpg"
+            },
+            {
+                "name": "Tonka Bean",
+                "intensity": 0.735089,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.73.jpg"
+            }
+        ],
+        "General Notes": []
+    },
+    "pros": [],
+    "cons": [],
+    "photos": [],
+    "ownership_stats": {
+        "own": 50.0,
+        "had": 50.0,
+        "want": 0.0
+    },
+    "sentiment_stats": {
+        "love": 100.0,
+        "like": 100.0,
+        "ok": 100.0,
+        "dislike": 100.0,
+        "hate": 100.0
+    },
+    "seasonality_stats": {
+        "winter": 100.0,
+        "spring": 100.0,
+        "summer": 100.0,
+        "fall": 100.0,
+        "day": 100.0,
+        "night": 100.0
+    },
+    "url": "https://www.fragrantica.com/perfume/Patrichs/Patrichs-Noir-Mimetic-76192.html"
+}

@@ -1,0 +1,80 @@
+{
+    "name": "Dare Quintessence for women",
+    "image_url": "https://fimgs.net/mdimg/perfume-thumbs/375x500.22881.jpg",
+    "brand": {
+        "name": "Quintessence",
+        "url": "https://www.fragrantica.com/designers/Quintessence.html",
+        "logo_url": "https://fimgs.net/mdimg/dizajneri/m.1804.jpg"
+    },
+    "main_accords": [
+        {
+            "name": "floral",
+            "intensity": 100.0
+        },
+        {
+            "name": "green",
+            "intensity": 82.5
+        },
+        {
+            "name": "citrus",
+            "intensity": 47.5
+        },
+        {
+            "name": "fresh",
+            "intensity": 38.75
+        },
+        {
+            "name": "fresh spicy",
+            "intensity": 33.5
+        }
+    ],
+    "notes": {
+        "Top Notes": [],
+        "Middle Notes": [],
+        "Base Notes": [],
+        "General Notes": [
+            {
+                "name": "Floral Notes",
+                "intensity": 1.0,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.314.jpg"
+            },
+            {
+                "name": "Green Notes",
+                "intensity": 1.0,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.318.jpg"
+            },
+            {
+                "name": "Citruses",
+                "intensity": 0.735089,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.313.jpg"
+            }
+        ]
+    },
+    "pros": [],
+    "cons": [],
+    "photos": [
+        "https://fimgs.net/mdimg/perfume-social-cards/en-p_c_22881.jpeg",
+        "https://fimgs.net/mdimg/secundar/fit.96649.jpg"
+    ],
+    "ownership_stats": {
+        "own": 50.0,
+        "had": 18.2927,
+        "want": 31.7073
+    },
+    "sentiment_stats": {
+        "love": 100.0,
+        "like": 50.0,
+        "ok": 14.2857,
+        "dislike": 14.2857,
+        "hate": 0.0
+    },
+    "seasonality_stats": {
+        "winter": 42.8571,
+        "spring": 42.8571,
+        "summer": 28.5714,
+        "fall": 100.0,
+        "day": 42.8571,
+        "night": 85.7143
+    },
+    "url": "https://www.fragrantica.com/perfume/Quintessence/Dare-22881.html"
+}

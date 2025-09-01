@@ -1,0 +1,124 @@
+{
+    "name": "Vetiver Imperiale by FOUR Boadicea the Victorious for women and men",
+    "image_url": "https://fimgs.net/mdimg/perfume-thumbs/375x500.66739.jpg",
+    "brand": {
+        "name": "Boadicea the Victorious",
+        "url": "https://www.fragrantica.com/designers/Boadicea-the-Victorious.html",
+        "logo_url": "https://fimgs.net/mdimg/dizajneri/m.817.jpg"
+    },
+    "main_accords": [
+        {
+            "name": "citrus",
+            "intensity": 100.0
+        },
+        {
+            "name": "woody",
+            "intensity": 81.7788
+        },
+        {
+            "name": "aromatic",
+            "intensity": 69.9849
+        },
+        {
+            "name": "fresh spicy",
+            "intensity": 67.8637
+        },
+        {
+            "name": "earthy",
+            "intensity": 55.4545
+        },
+        {
+            "name": "green",
+            "intensity": 47.9242
+        },
+        {
+            "name": "amber",
+            "intensity": 45.909
+        }
+    ],
+    "notes": {
+        "Top Notes": [
+            {
+                "name": "Bergamot",
+                "intensity": 1.0,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.75.jpg"
+            },
+            {
+                "name": "Mandarin Orange",
+                "intensity": 1.0,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.82.jpg"
+            },
+            {
+                "name": "Tunisian Neroli",
+                "intensity": 1.0,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.17.jpg"
+            }
+        ],
+        "Middle Notes": [
+            {
+                "name": "Black Pepper",
+                "intensity": 0.868629,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.158.jpg"
+            },
+            {
+                "name": "White Pepper",
+                "intensity": 0.868629,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.158.jpg"
+            },
+            {
+                "name": "Pink Pepper",
+                "intensity": 0.765573,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.91.jpg"
+            },
+            {
+                "name": "Patchouli",
+                "intensity": 0.735089,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.34.jpg"
+            }
+        ],
+        "Base Notes": [
+            {
+                "name": "Vetiver",
+                "intensity": 1.0,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.2.jpg"
+            },
+            {
+                "name": "Atlas Cedar",
+                "intensity": 0.845299,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.41.jpg"
+            },
+            {
+                "name": "Amber",
+                "intensity": 0.820464,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.54.jpg"
+            }
+        ],
+        "General Notes": []
+    },
+    "pros": [],
+    "cons": [],
+    "photos": [
+        "https://fimgs.net/mdimg/perfume-social-cards/en-p_c_66739.jpeg"
+    ],
+    "ownership_stats": {
+        "own": 49.3243,
+        "had": 10.1351,
+        "want": 40.5405
+    },
+    "sentiment_stats": {
+        "love": 100.0,
+        "like": 60.4651,
+        "ok": 25.5814,
+        "dislike": 6.97674,
+        "hate": 6.97674
+    },
+    "seasonality_stats": {
+        "winter": 50.0,
+        "spring": 91.6667,
+        "summer": 100.0,
+        "fall": 97.2222,
+        "day": 100.0,
+        "night": 55.5556
+    },
+    "url": "https://www.fragrantica.com/perfume/Boadicea-the-Victorious/Vetiver-Imperiale-by-FOUR-66739.html"
+}

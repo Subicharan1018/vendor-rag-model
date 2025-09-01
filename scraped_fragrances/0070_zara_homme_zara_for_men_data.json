@@ -1,0 +1,104 @@
+{
+    "name": "Zara Homme Zara for men",
+    "image_url": "https://fimgs.net/mdimg/perfume-thumbs/375x500.16608.jpg",
+    "brand": {
+        "name": "Zara",
+        "url": "https://www.fragrantica.com/designers/Zara.html",
+        "logo_url": "https://fimgs.net/mdimg/dizajneri/m.642.jpg"
+    },
+    "main_accords": [
+        {
+            "name": "cinnamon",
+            "intensity": 100.0
+        },
+        {
+            "name": "warm spicy",
+            "intensity": 85.9999
+        },
+        {
+            "name": "woody",
+            "intensity": 81.3334
+        },
+        {
+            "name": "musky",
+            "intensity": 76.6664
+        },
+        {
+            "name": "fresh spicy",
+            "intensity": 69.6666
+        },
+        {
+            "name": "powdery",
+            "intensity": 63.6001
+        },
+        {
+            "name": "citrus",
+            "intensity": 62.6667
+        },
+        {
+            "name": "animalic",
+            "intensity": 48.1998
+        }
+    ],
+    "notes": {
+        "Top Notes": [
+            {
+                "name": "Grapefruit",
+                "intensity": 0.735089,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.76.jpg"
+            }
+        ],
+        "Middle Notes": [
+            {
+                "name": "Cinnamon",
+                "intensity": 1.0,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.65.jpg"
+            },
+            {
+                "name": "Cumin",
+                "intensity": 0.810072,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.549.jpg"
+            }
+        ],
+        "Base Notes": [
+            {
+                "name": "Cedar",
+                "intensity": 0.967204,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.41.jpg"
+            },
+            {
+                "name": "Musk",
+                "intensity": 0.923236,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.4.jpg"
+            }
+        ],
+        "General Notes": []
+    },
+    "pros": [],
+    "cons": [],
+    "photos": [
+        "https://fimgs.net/mdimg/perfume-social-cards/en-p_c_16608.jpeg",
+        "https://fimgs.net/mdimg/secundar/fit.20412.jpg"
+    ],
+    "ownership_stats": {
+        "own": 28.4211,
+        "had": 26.3158,
+        "want": 45.2632
+    },
+    "sentiment_stats": {
+        "love": 100.0,
+        "like": 68.1818,
+        "ok": 0.0,
+        "dislike": 9.09091,
+        "hate": 0.0
+    },
+    "seasonality_stats": {
+        "winter": 100.0,
+        "spring": 21.4286,
+        "summer": 14.2857,
+        "fall": 92.8571,
+        "day": 71.4286,
+        "night": 100.0
+    },
+    "url": "https://www.fragrantica.com/perfume/Zara/Zara-Homme-16608.html"
+}

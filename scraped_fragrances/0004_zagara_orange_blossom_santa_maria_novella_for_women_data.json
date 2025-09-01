@@ -1,0 +1,126 @@
+{
+    "name": "Zagara (Orange Blossom) Santa Maria Novella for women",
+    "image_url": "https://fimgs.net/mdimg/perfume-thumbs/375x500.11470.jpg",
+    "brand": {
+        "name": "Santa Maria Novella",
+        "url": "https://www.fragrantica.com/designers/Santa-Maria-Novella.html",
+        "logo_url": "https://fimgs.net/mdimg/dizajneri/m.1158.jpg"
+    },
+    "main_accords": [
+        {
+            "name": "citrus",
+            "intensity": 100.0
+        },
+        {
+            "name": "white floral",
+            "intensity": 65.7778
+        },
+        {
+            "name": "fresh spicy",
+            "intensity": 48.3838
+        },
+        {
+            "name": "aromatic",
+            "intensity": 47.5354
+        },
+        {
+            "name": "sweet",
+            "intensity": 44.4949
+        }
+    ],
+    "notes": {
+        "Top Notes": [
+            {
+                "name": "Petitgrain",
+                "intensity": 1.0,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.3.jpg"
+            },
+            {
+                "name": "Bergamot",
+                "intensity": 0.97063,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.75.jpg"
+            },
+            {
+                "name": "Lemon Verbena",
+                "intensity": 0.97063,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.120.jpg"
+            },
+            {
+                "name": "Orange",
+                "intensity": 0.963744,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.80.jpg"
+            },
+            {
+                "name": "Lime",
+                "intensity": 0.830589,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.78.jpg"
+            },
+            {
+                "name": "Grapefruit",
+                "intensity": 0.7994,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.76.jpg"
+            },
+            {
+                "name": "Lavender",
+                "intensity": 0.735089,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.1.jpg"
+            }
+        ],
+        "Middle Notes": [
+            {
+                "name": "African Orange Flower",
+                "intensity": 1.0,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.16.jpg"
+            },
+            {
+                "name": "Jasmine",
+                "intensity": 0.845299,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.14.jpg"
+            },
+            {
+                "name": "Carnation",
+                "intensity": 0.77141,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.7.jpg"
+            },
+            {
+                "name": "Geranium",
+                "intensity": 0.735089,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.21.jpg"
+            }
+        ],
+        "Base Notes": [
+            {
+                "name": "oak moss",
+                "intensity": 0.894842,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.39.jpg"
+            }
+        ],
+        "General Notes": []
+    },
+    "pros": [],
+    "cons": [],
+    "photos": [
+        "https://fimgs.net/mdimg/perfume-social-cards/en-p_c_11470.jpeg"
+    ],
+    "ownership_stats": {
+        "own": 29.9035,
+        "had": 12.5402,
+        "want": 57.5563
+    },
+    "sentiment_stats": {
+        "love": 100.0,
+        "like": 89.5833,
+        "ok": 22.9167,
+        "dislike": 16.6667,
+        "hate": 0.0
+    },
+    "seasonality_stats": {
+        "winter": 7.14286,
+        "spring": 73.8095,
+        "summer": 100.0,
+        "fall": 28.5714,
+        "day": 100.0,
+        "night": 23.8095
+    },
+    "url": "https://www.fragrantica.com/perfume/Santa-Maria-Novella/Zagara-Orange-Blossom-11470.html"
+}

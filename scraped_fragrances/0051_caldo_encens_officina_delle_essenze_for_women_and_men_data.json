@@ -1,0 +1,123 @@
+{
+    "name": "Caldo Encens Officina delle Essenze for women and men",
+    "image_url": "https://fimgs.net/mdimg/perfume-thumbs/375x500.29086.jpg",
+    "brand": {
+        "name": "Officina delle Essenze",
+        "url": "https://www.fragrantica.com/designers/Officina-delle-Essenze.html",
+        "logo_url": "https://fimgs.net/mdimg/dizajneri/m.1298.jpg"
+    },
+    "main_accords": [
+        {
+            "name": "woody",
+            "intensity": 100.0
+        },
+        {
+            "name": "aromatic",
+            "intensity": 77.0454
+        },
+        {
+            "name": "amber",
+            "intensity": 71.9321
+        },
+        {
+            "name": "green",
+            "intensity": 70.1138
+        },
+        {
+            "name": "balsamic",
+            "intensity": 66.591
+        },
+        {
+            "name": "powdery",
+            "intensity": 62.7272
+        },
+        {
+            "name": "vanilla",
+            "intensity": 53.0684
+        },
+        {
+            "name": "conifer",
+            "intensity": 48.75
+        },
+        {
+            "name": "smoky",
+            "intensity": 48.1819
+        },
+        {
+            "name": "citrus",
+            "intensity": 47.5568
+        }
+    ],
+    "notes": {
+        "Top Notes": [
+            {
+                "name": "Heliotrope",
+                "intensity": 1.0,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.99.jpg"
+            },
+            {
+                "name": "Bergamot",
+                "intensity": 0.735089,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.75.jpg"
+            }
+        ],
+        "Middle Notes": [
+            {
+                "name": "Galbanum",
+                "intensity": 0.97738,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.45.jpg"
+            },
+            {
+                "name": "Incense",
+                "intensity": 0.899036,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.68.jpg"
+            }
+        ],
+        "Base Notes": [
+            {
+                "name": "Pine",
+                "intensity": 1.0,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.204.jpg"
+            },
+            {
+                "name": "Cedar",
+                "intensity": 0.919314,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.41.jpg"
+            },
+            {
+                "name": "Resin",
+                "intensity": 0.919314,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.317.jpg"
+            }
+        ],
+        "General Notes": []
+    },
+    "pros": [],
+    "cons": [],
+    "photos": [
+        "https://fimgs.net/mdimg/perfume-social-cards/en-p_c_29086.jpeg",
+        "https://fimgs.net/mdimg/secundar/fit.62601.jpg",
+        "https://fimgs.net/mdimg/secundar/fit.62602.jpg"
+    ],
+    "ownership_stats": {
+        "own": 26.7974,
+        "had": 11.7647,
+        "want": 61.4379
+    },
+    "sentiment_stats": {
+        "love": 80.9524,
+        "like": 100.0,
+        "ok": 28.5714,
+        "dislike": 23.8095,
+        "hate": 0.0
+    },
+    "seasonality_stats": {
+        "winter": 93.75,
+        "spring": 43.75,
+        "summer": 25.0,
+        "fall": 100.0,
+        "day": 56.25,
+        "night": 56.25
+    },
+    "url": "https://www.fragrantica.com/perfume/Officina-delle-Essenze/Caldo-Encens-29086.html"
+}

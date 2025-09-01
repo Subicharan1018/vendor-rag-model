@@ -1,0 +1,261 @@
+{
+    "name": "Reliqvia Filippo Sorcinelli for women and men",
+    "image_url": "https://fimgs.net/mdimg/perfume-thumbs/375x500.69497.jpg",
+    "brand": {
+        "name": "Filippo Sorcinelli",
+        "url": "https://www.fragrantica.com/designers/Filippo-Sorcinelli.html",
+        "logo_url": "https://fimgs.net/mdimg/dizajneri/m.2197.jpg"
+    },
+    "main_accords": [
+        {
+            "name": "woody",
+            "intensity": 100.0
+        },
+        {
+            "name": "smoky",
+            "intensity": 80.1864
+        },
+        {
+            "name": "balsamic",
+            "intensity": 76.8395
+        },
+        {
+            "name": "aromatic",
+            "intensity": 72.575
+        },
+        {
+            "name": "amber",
+            "intensity": 61.472
+        },
+        {
+            "name": "warm spicy",
+            "intensity": 60.4091
+        },
+        {
+            "name": "citrus",
+            "intensity": 48.0858
+        },
+        {
+            "name": "conifer",
+            "intensity": 47.5542
+        }
+    ],
+    "notes": {
+        "Top Notes": [
+            {
+                "name": "Pine Tree",
+                "intensity": 0.990491,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.204.jpg"
+            },
+            {
+                "name": "Mastic or Lentisque",
+                "intensity": 0.881966,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.471.jpg"
+            },
+            {
+                "name": "Cloves",
+                "intensity": 0.868629,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.61.jpg"
+            },
+            {
+                "name": "Amyris",
+                "intensity": 0.815302,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.416.jpg"
+            },
+            {
+                "name": "Orange Blossom",
+                "intensity": 0.759653,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.16.jpg"
+            }
+        ],
+        "Middle Notes": [
+            {
+                "name": "Incense",
+                "intensity": 1.0,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.68.jpg"
+            },
+            {
+                "name": "Guaiac Wood",
+                "intensity": 0.877573,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.36.jpg"
+            },
+            {
+                "name": "Sandalwood",
+                "intensity": 0.815302,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.33.jpg"
+            },
+            {
+                "name": "Cashmere Wood",
+                "intensity": 0.77141,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.343.jpg"
+            },
+            {
+                "name": "Patchouli",
+                "intensity": 0.735089,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.34.jpg"
+            }
+        ],
+        "Base Notes": [
+            {
+                "name": "Smoke",
+                "intensity": 1.0,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.735.jpg"
+            },
+            {
+                "name": "elemi",
+                "intensity": 0.967204,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.390.jpg"
+            },
+            {
+                "name": "Sweet Orange",
+                "intensity": 0.894842,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.80.jpg"
+            },
+            {
+                "name": "Nutmeg",
+                "intensity": 0.777164,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.59.jpg"
+            },
+            {
+                "name": "Tobacco",
+                "intensity": 0.77141,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.96.jpg"
+            },
+            {
+                "name": "Black Currant",
+                "intensity": 0.753646,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.132.jpg"
+            }
+        ],
+        "General Notes": []
+    },
+    "pros": [
+        {
+            "text": "Church-like incense scent",
+            "up_votes": 48,
+            "down_votes": 4
+        },
+        {
+            "text": "Mystical and unique fragrance",
+            "up_votes": 45,
+            "down_votes": 2
+        },
+        {
+            "text": "High quality ingredients",
+            "up_votes": 40,
+            "down_votes": 1
+        },
+        {
+            "text": "Good sillage and projection",
+            "up_votes": 25,
+            "down_votes": 0
+        },
+        {
+            "text": "Excellent performance and longevity",
+            "up_votes": 20,
+            "down_votes": 0
+        },
+        {
+            "text": "Woody with hints of citrus and resin",
+            "up_votes": 20,
+            "down_votes": 2
+        },
+        {
+            "text": "Comfortable to wear",
+            "up_votes": 22,
+            "down_votes": 8
+        },
+        {
+            "text": "Smooth blend of materials",
+            "up_votes": 19,
+            "down_votes": 5
+        }
+    ],
+    "cons": [
+        {
+            "text": "May not be suitable for all occasions or settings",
+            "up_votes": 20,
+            "down_votes": 10
+        },
+        {
+            "text": "Presence of cloves can be off-putting for some",
+            "up_votes": 9,
+            "down_votes": 12
+        },
+        {
+            "text": "Mixed opinions on the opening and drydown",
+            "up_votes": 7,
+            "down_votes": 8
+        },
+        {
+            "text": "Smoke and burnt notes may be overwhelming for some",
+            "up_votes": 10,
+            "down_votes": 15
+        },
+        {
+            "text": "Sourness or musty smell may deter some",
+            "up_votes": 8,
+            "down_votes": 11
+        },
+        {
+            "text": "Not worth the cost for some",
+            "up_votes": 7,
+            "down_votes": 14
+        },
+        {
+            "text": "Some may find it too old-fashioned or clerical",
+            "up_votes": 5,
+            "down_votes": 14
+        },
+        {
+            "text": "Linear and lacks complexity for some",
+            "up_votes": 7,
+            "down_votes": 20
+        }
+    ],
+    "photos": [
+        "https://fimgs.net/mdimg/perfume-social-cards/en-p_c_69497.jpeg",
+        "https://fimgs.net/photogram/p180/eb/fm/z1j3ngq98VDAYteM.jpg",
+        "https://fimgs.net/photogram/p180/fe/ex/0H4bh0PYw7eWUHuP.jpg",
+        "https://fimgs.net/photogram/p180/6f/03/qvqvy8lVC0PgW6kR.jpg",
+        "https://fimgs.net/photogram/p180/0e/rb/Y5AlhQXArPetiCE0.jpg",
+        "https://fimgs.net/photogram/p180/gt/k0/fBuAnLPnh4ETlpKt.jpg",
+        "https://fimgs.net/photogram/p180/t8/bh/r03wTzQ5q9jP3pY1.jpg",
+        "https://fimgs.net/photogram/p180/zd/fs/xytmgSMqlUoingdz.jpg",
+        "https://fimgs.net/photogram/p180/im/xf/UHqMaVryy2xEirK5.jpg",
+        "https://fimgs.net/photogram/p180/se/6e/PLZrYJj03mxrlB4Y.jpg",
+        "https://fimgs.net/photogram/p180/lu/lu/TDo3iO4IiT38NTgz.jpg",
+        "https://fimgs.net/photogram/p180/ut/j5/fH9M7NXfa1kLuVro.jpg",
+        "https://fimgs.net/photogram/p180/a8/du/hThlUw9V7yaw39AK.jpg",
+        "https://fimgs.net/photogram/p180/fr/63/w5ozNfi6lxpg8AD5.jpg",
+        "https://fimgs.net/photogram/p180/wk/ys/TBeuVYLA4Kmxs9fe.jpg",
+        "https://fimgs.net/photogram/p180/y4/7l/fEJQTW55lB99TYwx.jpg",
+        "https://fimgs.net/photogram/p180/l6/iz/9W3oWvlsU9qRDgr3.jpg",
+        "https://fimgs.net/photogram/p180/1s/ir/hWwU8ZKbVuQ6Enoh.jpg",
+        "https://fimgs.net/photogram/p180/n6/uc/9BUuUz5rFHHeeUt8.jpg",
+        "https://fimgs.net/photogram/p180/zb/9k/aoIZs56u15dNXi9n.jpg",
+        "https://fimgs.net/photogram/p180/rx/jx/0zKPOJwHNRMT8Avk.jpg",
+        "https://fimgs.net/photogram/p180/04/v1/sCKnvULReg2JRKXF.jpg"
+    ],
+    "ownership_stats": {
+        "own": 24.557,
+        "had": 5.45404,
+        "want": 69.9889
+    },
+    "sentiment_stats": {
+        "love": 100.0,
+        "like": 55.8897,
+        "ok": 23.5589,
+        "dislike": 18.5464,
+        "hate": 11.0276
+    },
+    "seasonality_stats": {
+        "winter": 97.5385,
+        "spring": 49.2308,
+        "summer": 21.8462,
+        "fall": 100.0,
+        "day": 52.3077,
+        "night": 84.3077
+    },
+    "url": "https://www.fragrantica.com/perfume/Filippo-Sorcinelli/Reliqvia-69497.html"
+}

@@ -1,0 +1,82 @@
+{
+    "name": "Radiance Verset Parfums for women",
+    "image_url": "https://fimgs.net/mdimg/perfume-thumbs/375x500.59211.jpg",
+    "brand": {
+        "name": "Verset Parfums",
+        "url": "https://www.fragrantica.com/designers/Verset-Parfums.html",
+        "logo_url": "https://fimgs.net/mdimg/dizajneri/m.3869.jpg"
+    },
+    "main_accords": [
+        {
+            "name": "white floral",
+            "intensity": 100.0
+        },
+        {
+            "name": "amber",
+            "intensity": 63.6
+        },
+        {
+            "name": "animalic",
+            "intensity": 41.9001
+        },
+        {
+            "name": "floral",
+            "intensity": 41.7599
+        },
+        {
+            "name": "fresh",
+            "intensity": 35.88
+        }
+    ],
+    "notes": {
+        "Top Notes": [
+            {
+                "name": "Jasmine",
+                "intensity": 1.0,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.14.jpg"
+            }
+        ],
+        "Middle Notes": [
+            {
+                "name": "Orange Blossom",
+                "intensity": 0.735089,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.16.jpg"
+            }
+        ],
+        "Base Notes": [
+            {
+                "name": "White Amber",
+                "intensity": 0.956719,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.54.jpg"
+            }
+        ],
+        "General Notes": []
+    },
+    "pros": [],
+    "cons": [],
+    "photos": [
+        "https://fimgs.net/mdimg/perfume-social-cards/en-p_c_59211.jpeg",
+        "https://fimgs.net/mdimg/secundar/fit.68341.jpg"
+    ],
+    "ownership_stats": {
+        "own": 46.063,
+        "had": 22.0472,
+        "want": 31.8898
+    },
+    "sentiment_stats": {
+        "love": 100.0,
+        "like": 90.625,
+        "ok": 12.5,
+        "dislike": 9.375,
+        "hate": 6.25
+    },
+    "seasonality_stats": {
+        "winter": 100.0,
+        "spring": 47.0588,
+        "summer": 35.2941,
+        "fall": 85.2941,
+        "day": 70.5882,
+        "night": 79.4118
+    },
+    "url": "https://www.fragrantica.com/perfume/Verset-Parfums/Radiance-59211.html"
+}

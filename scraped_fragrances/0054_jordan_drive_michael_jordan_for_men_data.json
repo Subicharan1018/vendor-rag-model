@@ -1,0 +1,89 @@
+{
+    "name": "Jordan Drive Michael Jordan for men",
+    "image_url": "https://fimgs.net/mdimg/perfume-thumbs/375x500.44521.jpg",
+    "brand": {
+        "name": "Michael Jordan",
+        "url": "https://www.fragrantica.com/designers/Michael-Jordan.html",
+        "logo_url": "https://fimgs.net/mdimg/dizajneri/m.419.jpg"
+    },
+    "main_accords": [
+        {
+            "name": "aquatic",
+            "intensity": 100.0
+        },
+        {
+            "name": "citrus",
+            "intensity": 100.0
+        },
+        {
+            "name": "fresh",
+            "intensity": 79.0001
+        },
+        {
+            "name": "aromatic",
+            "intensity": 51.0001
+        },
+        {
+            "name": "musky",
+            "intensity": 47.5001
+        }
+    ],
+    "notes": {
+        "Top Notes": [],
+        "Middle Notes": [],
+        "Base Notes": [],
+        "General Notes": [
+            {
+                "name": "Italian Lemon",
+                "intensity": 1.0,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.77.jpg"
+            },
+            {
+                "name": "Water Notes",
+                "intensity": 1.0,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.370.jpg"
+            },
+            {
+                "name": "Musk",
+                "intensity": 0.868629,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.4.jpg"
+            },
+            {
+                "name": "Amberwood",
+                "intensity": 0.735089,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.691.jpg"
+            },
+            {
+                "name": "Oakmoss",
+                "intensity": 0.735089,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.39.jpg"
+            }
+        ]
+    },
+    "pros": [],
+    "cons": [],
+    "photos": [
+        "https://fimgs.net/mdimg/perfume-social-cards/en-p_c_44521.jpeg"
+    ],
+    "ownership_stats": {
+        "own": 66.6667,
+        "had": 11.1111,
+        "want": 22.2222
+    },
+    "sentiment_stats": {
+        "love": 66.6667,
+        "like": 100.0,
+        "ok": 77.7778,
+        "dislike": 11.1111,
+        "hate": 0.0
+    },
+    "seasonality_stats": {
+        "winter": 20.0,
+        "spring": 93.3333,
+        "summer": 100.0,
+        "fall": 40.0,
+        "day": 100.0,
+        "night": 33.3333
+    },
+    "url": "https://www.fragrantica.com/perfume/Michael-Jordan/Jordan-Drive-44521.html"
+}

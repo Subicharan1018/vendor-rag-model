@@ -1,0 +1,151 @@
+{
+    "name": "Classique Love Actually Jean Paul Gaultier for women",
+    "image_url": "https://fimgs.net/mdimg/perfume-thumbs/375x500.11356.jpg",
+    "brand": {
+        "name": "Jean Paul Gaultier",
+        "url": "https://www.fragrantica.com/designers/Jean-Paul-Gaultier.html",
+        "logo_url": "https://fimgs.net/mdimg/dizajneri/m.72.jpg"
+    },
+    "main_accords": [
+        {
+            "name": "sweet",
+            "intensity": 100.0
+        },
+        {
+            "name": "powdery",
+            "intensity": 84.4612
+        },
+        {
+            "name": "fruity",
+            "intensity": 72.9959
+        },
+        {
+            "name": "floral",
+            "intensity": 71.9396
+        },
+        {
+            "name": "citrus",
+            "intensity": 69.9787
+        },
+        {
+            "name": "white floral",
+            "intensity": 69.2244
+        },
+        {
+            "name": "yellow floral",
+            "intensity": 66.2072
+        },
+        {
+            "name": "iris",
+            "intensity": 63.1901
+        },
+        {
+            "name": "soft spicy",
+            "intensity": 58.6637
+        },
+        {
+            "name": "amber",
+            "intensity": 57.1551
+        }
+    ],
+    "notes": {
+        "Top Notes": [
+            {
+                "name": "Orange Blossom",
+                "intensity": 1.0,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.16.jpg"
+            },
+            {
+                "name": "Star Anise",
+                "intensity": 0.923236,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.100.jpg"
+            },
+            {
+                "name": "Pear",
+                "intensity": 0.868629,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.182.jpg"
+            },
+            {
+                "name": "Rose",
+                "intensity": 0.868629,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.105.jpg"
+            },
+            {
+                "name": "Mandarin Orange",
+                "intensity": 0.735089,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.82.jpg"
+            }
+        ],
+        "Middle Notes": [
+            {
+                "name": "Ylang-Ylang",
+                "intensity": 1.0,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.24.jpg"
+            },
+            {
+                "name": "Iris",
+                "intensity": 1.0,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.11.jpg"
+            },
+            {
+                "name": "Orchid",
+                "intensity": 0.967204,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.154.jpg"
+            },
+            {
+                "name": "Plum",
+                "intensity": 0.923236,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.171.jpg"
+            },
+            {
+                "name": "Ginger",
+                "intensity": 0.868629,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.62.jpg"
+            }
+        ],
+        "Base Notes": [
+            {
+                "name": "Amber",
+                "intensity": 0.967204,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.54.jpg"
+            },
+            {
+                "name": "Musk",
+                "intensity": 0.868629,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.4.jpg"
+            },
+            {
+                "name": "Vanilla",
+                "intensity": 0.735089,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.74.jpg"
+            }
+        ],
+        "General Notes": []
+    },
+    "pros": [],
+    "cons": [],
+    "photos": [
+        "https://fimgs.net/mdimg/perfume-social-cards/en-p_c_11356.jpeg"
+    ],
+    "ownership_stats": {
+        "own": 7.27273,
+        "had": 10.9091,
+        "want": 81.8182
+    },
+    "sentiment_stats": {
+        "love": 66.6667,
+        "like": 100.0,
+        "ok": 0.0,
+        "dislike": 33.3333,
+        "hate": 0.0
+    },
+    "seasonality_stats": {
+        "winter": 62.5,
+        "spring": 50.0,
+        "summer": 62.5,
+        "fall": 62.5,
+        "day": 62.5,
+        "night": 100.0
+    },
+    "url": "https://www.fragrantica.com/perfume/Jean-Paul-Gaultier/Classique-Love-Actually-11356.html"
+}

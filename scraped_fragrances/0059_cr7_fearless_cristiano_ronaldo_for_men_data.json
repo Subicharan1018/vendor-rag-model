@@ -1,0 +1,143 @@
+{
+    "name": "CR7 Fearless Cristiano Ronaldo for men",
+    "image_url": "https://fimgs.net/mdimg/perfume-thumbs/375x500.83736.jpg",
+    "brand": {
+        "name": "Cristiano Ronaldo",
+        "url": "https://www.fragrantica.com/designers/Cristiano-Ronaldo.html",
+        "logo_url": "https://fimgs.net/mdimg/dizajneri/m.2320.jpg"
+    },
+    "main_accords": [
+        {
+            "name": "fresh spicy",
+            "intensity": 100.0
+        },
+        {
+            "name": "aromatic",
+            "intensity": 61.9157
+        },
+        {
+            "name": "fruity",
+            "intensity": 61.9157
+        },
+        {
+            "name": "camphor",
+            "intensity": 48.774
+        },
+        {
+            "name": "sweet",
+            "intensity": 44.4828
+        }
+    ],
+    "notes": {
+        "Top Notes": [
+            {
+                "name": "Longoza",
+                "intensity": 1.0,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.1465.jpg"
+            },
+            {
+                "name": "Red Apple",
+                "intensity": 1.0,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.144.jpg"
+            },
+            {
+                "name": "Bay Leaf",
+                "intensity": 1.0,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.128.jpg"
+            },
+            {
+                "name": "Grapefruit",
+                "intensity": 0.877573,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.76.jpg"
+            },
+            {
+                "name": "Violet Leaf",
+                "intensity": 0.788435,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.127.jpg"
+            }
+        ],
+        "Middle Notes": [
+            {
+                "name": "Geranium",
+                "intensity": 0.915348,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.21.jpg"
+            },
+            {
+                "name": "Nutmeg",
+                "intensity": 0.877573,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.59.jpg"
+            },
+            {
+                "name": "Violet",
+                "intensity": 0.765573,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.116.jpg"
+            }
+        ],
+        "Base Notes": [
+            {
+                "name": "Amrostar®",
+                "intensity": 1.0,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.1466.jpg"
+            },
+            {
+                "name": "Labdanum",
+                "intensity": 0.877573,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.15.jpg"
+            },
+            {
+                "name": "Cashmeran",
+                "intensity": 0.788435,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.348.jpg"
+            },
+            {
+                "name": "Vanilla",
+                "intensity": 0.788435,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.74.jpg"
+            },
+            {
+                "name": "Tonka",
+                "intensity": 0.735089,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.73.jpg"
+            }
+        ],
+        "General Notes": []
+    },
+    "pros": [],
+    "cons": [],
+    "photos": [
+        "https://fimgs.net/mdimg/perfume-social-cards/en-p_c_83736.jpeg",
+        "https://fimgs.net/photogram/p180/aj/vw/U7DHNbalHS2Fujid.jpg",
+        "https://fimgs.net/photogram/p180/fv/sq/k7jbQNM2tJKgK2jM.jpg",
+        "https://fimgs.net/mdimg/secundar/fit.105434.jpg",
+        "https://fimgs.net/mdimg/secundar/fit.105435.jpg",
+        "https://fimgs.net/mdimg/secundar/fit.105436.jpg",
+        "https://fimgs.net/mdimg/secundar/fit.105437.jpg",
+        "https://fimgs.net/mdimg/secundar/fit.105438.jpg",
+        "https://fimgs.net/mdimg/secundar/fit.105439.jpg",
+        "https://fimgs.net/mdimg/secundar/fit.105440.jpg",
+        "https://fimgs.net/mdimg/secundar/fit.105441.jpg",
+        "https://fimgs.net/mdimg/secundar/fit.105442.jpg",
+        "https://fimgs.net/mdimg/secundar/fit.105443.jpg"
+    ],
+    "ownership_stats": {
+        "own": 46.4088,
+        "had": 7.73481,
+        "want": 45.8564
+    },
+    "sentiment_stats": {
+        "love": 100.0,
+        "like": 31.7073,
+        "ok": 29.2683,
+        "dislike": 12.1951,
+        "hate": 82.9268
+    },
+    "seasonality_stats": {
+        "winter": 92.1053,
+        "spring": 86.8421,
+        "summer": 92.1053,
+        "fall": 100.0,
+        "day": 92.1053,
+        "night": 81.5789
+    },
+    "url": "https://www.fragrantica.com/perfume/Cristiano-Ronaldo/CR7-Fearless-83736.html"
+}

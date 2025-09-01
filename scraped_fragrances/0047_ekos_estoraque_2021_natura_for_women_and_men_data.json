@@ -1,0 +1,167 @@
+{
+    "name": "Ekos Estoraque 2021 Natura for women and men",
+    "image_url": "https://fimgs.net/mdimg/perfume-thumbs/375x500.66249.jpg",
+    "brand": {
+        "name": "Natura",
+        "url": "https://www.fragrantica.com/designers/Natura.html",
+        "logo_url": "https://fimgs.net/mdimg/dizajneri/m.582.jpg"
+    },
+    "main_accords": [
+        {
+            "name": "green",
+            "intensity": 100.0
+        },
+        {
+            "name": "citrus",
+            "intensity": 79.8627
+        },
+        {
+            "name": "aromatic",
+            "intensity": 70.7892
+        },
+        {
+            "name": "fresh spicy",
+            "intensity": 64.4322
+        },
+        {
+            "name": "woody",
+            "intensity": 59.9298
+        },
+        {
+            "name": "lavender",
+            "intensity": 56.4865
+        },
+        {
+            "name": "powdery",
+            "intensity": 47.6324
+        },
+        {
+            "name": "musky",
+            "intensity": 46.7242
+        },
+        {
+            "name": "rose",
+            "intensity": 45.4378
+        }
+    ],
+    "notes": {
+        "Top Notes": [
+            {
+                "name": "Green Notes",
+                "intensity": 1.0,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.318.jpg"
+            },
+            {
+                "name": "Lavender",
+                "intensity": 0.942228,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.1.jpg"
+            },
+            {
+                "name": "Lemon",
+                "intensity": 0.927116,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.77.jpg"
+            },
+            {
+                "name": "Bergamot",
+                "intensity": 0.864076,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.75.jpg"
+            },
+            {
+                "name": "Mandarin Orange",
+                "intensity": 0.82556,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.82.jpg"
+            },
+            {
+                "name": "Anise",
+                "intensity": 0.788435,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.393.jpg"
+            }
+        ],
+        "Middle Notes": [
+            {
+                "name": "Storax",
+                "intensity": 0.930955,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.1283.jpg"
+            },
+            {
+                "name": "Geranium",
+                "intensity": 0.8906,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.21.jpg"
+            },
+            {
+                "name": "Lily-of-the-Valley",
+                "intensity": 0.854803,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.109.jpg"
+            },
+            {
+                "name": "Rose",
+                "intensity": 0.788435,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.105.jpg"
+            },
+            {
+                "name": "Violet",
+                "intensity": 0.735089,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.116.jpg"
+            }
+        ],
+        "Base Notes": [
+            {
+                "name": "Cedar",
+                "intensity": 0.899036,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.41.jpg"
+            },
+            {
+                "name": "Musk",
+                "intensity": 0.864076,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.4.jpg"
+            },
+            {
+                "name": "Sandalwood",
+                "intensity": 0.810072,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.33.jpg"
+            },
+            {
+                "name": "Benzoin",
+                "intensity": 0.765573,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.69.jpg"
+            },
+            {
+                "name": "Amber",
+                "intensity": 0.765573,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.54.jpg"
+            },
+            {
+                "name": "Coumarin",
+                "intensity": 0.741366,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.259.jpg"
+            }
+        ],
+        "General Notes": []
+    },
+    "pros": [],
+    "cons": [],
+    "photos": [
+        "https://fimgs.net/mdimg/perfume-social-cards/en-p_c_66249.jpeg"
+    ],
+    "ownership_stats": {
+        "own": 67.3913,
+        "had": 14.7157,
+        "want": 17.893
+    },
+    "sentiment_stats": {
+        "love": 100.0,
+        "like": 98.7179,
+        "ok": 33.3333,
+        "dislike": 16.6667,
+        "hate": 11.5385
+    },
+    "seasonality_stats": {
+        "winter": 10.2362,
+        "spring": 78.7402,
+        "summer": 95.2756,
+        "fall": 29.1339,
+        "day": 100.0,
+        "night": 22.8346
+    },
+    "url": "https://www.fragrantica.com/perfume/Natura/Ekos-Estoraque-2021-66249.html"
+}

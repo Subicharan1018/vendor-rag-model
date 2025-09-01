@@ -1,0 +1,151 @@
+{
+    "name": "Garden of Hespera MOR for women",
+    "image_url": "https://fimgs.net/mdimg/perfume-thumbs/375x500.12269.jpg",
+    "brand": {
+        "name": "MOR",
+        "url": "https://www.fragrantica.com/designers/MOR.html",
+        "logo_url": "https://fimgs.net/mdimg/dizajneri/m.1049.jpg"
+    },
+    "main_accords": [
+        {
+            "name": "woody",
+            "intensity": 100.0
+        },
+        {
+            "name": "fruity",
+            "intensity": 99.1361
+        },
+        {
+            "name": "sweet",
+            "intensity": 65.4324
+        },
+        {
+            "name": "aromatic",
+            "intensity": 58.5186
+        },
+        {
+            "name": "fresh",
+            "intensity": 54.6297
+        },
+        {
+            "name": "warm spicy",
+            "intensity": 54.1974
+        },
+        {
+            "name": "fresh spicy",
+            "intensity": 53.3335
+        },
+        {
+            "name": "citrus",
+            "intensity": 50.7409
+        },
+        {
+            "name": "mossy",
+            "intensity": 47.284
+        },
+        {
+            "name": "floral",
+            "intensity": 46.4197
+        }
+    ],
+    "notes": {
+        "Top Notes": [
+            {
+                "name": "Red Apple",
+                "intensity": 1.0,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.144.jpg"
+            },
+            {
+                "name": "black fig",
+                "intensity": 1.0,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.247.jpg"
+            },
+            {
+                "name": "Bergamot",
+                "intensity": 0.967204,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.75.jpg"
+            },
+            {
+                "name": "Bay Leaf",
+                "intensity": 0.903183,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.128.jpg"
+            }
+        ],
+        "Middle Notes": [
+            {
+                "name": "Ginger",
+                "intensity": 0.967204,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.62.jpg"
+            },
+            {
+                "name": "Cyclamen",
+                "intensity": 0.967204,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.166.jpg"
+            },
+            {
+                "name": "Cardamom",
+                "intensity": 0.903183,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.63.jpg"
+            },
+            {
+                "name": "Rose",
+                "intensity": 0.903183,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.105.jpg"
+            },
+            {
+                "name": "Heliotrope",
+                "intensity": 0.735089,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.99.jpg"
+            }
+        ],
+        "Base Notes": [
+            {
+                "name": "Virginia Cedar",
+                "intensity": 1.0,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.41.jpg"
+            },
+            {
+                "name": "oak moss",
+                "intensity": 0.967204,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.39.jpg"
+            },
+            {
+                "name": "Cypress",
+                "intensity": 0.967204,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.186.jpg"
+            },
+            {
+                "name": "Musk",
+                "intensity": 0.903183,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.4.jpg"
+            }
+        ],
+        "General Notes": []
+    },
+    "pros": [],
+    "cons": [],
+    "photos": [
+        "https://fimgs.net/mdimg/perfume-social-cards/en-p_c_12269.jpeg"
+    ],
+    "ownership_stats": {
+        "own": 12.6582,
+        "had": 11.3924,
+        "want": 75.9494
+    },
+    "sentiment_stats": {
+        "love": 100.0,
+        "like": 100.0,
+        "ok": 16.6667,
+        "dislike": 16.6667,
+        "hate": 0.0
+    },
+    "seasonality_stats": {
+        "winter": 33.3333,
+        "spring": 66.6667,
+        "summer": 100.0,
+        "fall": 66.6667,
+        "day": 66.6667,
+        "night": 33.3333
+    },
+    "url": "https://www.fragrantica.com/perfume/MOR/Garden-of-Hespera-12269.html"
+}

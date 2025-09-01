@@ -1,0 +1,126 @@
+{
+    "name": "Musk Mystic El Nabil for women",
+    "image_url": "https://fimgs.net/mdimg/perfume-thumbs/375x500.64987.jpg",
+    "brand": {
+        "name": "El Nabil",
+        "url": "https://www.fragrantica.com/designers/El-Nabil.html",
+        "logo_url": "https://fimgs.net/mdimg/dizajneri/m.3866.jpg"
+    },
+    "main_accords": [
+        {
+            "name": "floral",
+            "intensity": 100.0
+        },
+        {
+            "name": "powdery",
+            "intensity": 93.553
+        },
+        {
+            "name": "vanilla",
+            "intensity": 85.2632
+        },
+        {
+            "name": "sweet",
+            "intensity": 85.2632
+        },
+        {
+            "name": "musky",
+            "intensity": 85.2632
+        },
+        {
+            "name": "fruity",
+            "intensity": 72.3686
+        },
+        {
+            "name": "iris",
+            "intensity": 48.4212
+        },
+        {
+            "name": "cherry",
+            "intensity": 48.4212
+        },
+        {
+            "name": "amber",
+            "intensity": 48.4212
+        },
+        {
+            "name": "soft spicy",
+            "intensity": 44.7368
+        }
+    ],
+    "notes": {
+        "Top Notes": [
+            {
+                "name": "Plum",
+                "intensity": 0.967204,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.171.jpg"
+            },
+            {
+                "name": "Sour Cherry",
+                "intensity": 0.735089,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.176.jpg"
+            }
+        ],
+        "Middle Notes": [
+            {
+                "name": "Freesia",
+                "intensity": 1.0,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.94.jpg"
+            },
+            {
+                "name": "Orchid",
+                "intensity": 0.735089,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.154.jpg"
+            },
+            {
+                "name": "Iris",
+                "intensity": 0.735089,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.11.jpg"
+            }
+        ],
+        "Base Notes": [
+            {
+                "name": "Vanilla",
+                "intensity": 1.0,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.74.jpg"
+            },
+            {
+                "name": "Musk",
+                "intensity": 1.0,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.4.jpg"
+            },
+            {
+                "name": "Amber",
+                "intensity": 0.735089,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.54.jpg"
+            }
+        ],
+        "General Notes": []
+    },
+    "pros": [],
+    "cons": [],
+    "photos": [
+        "https://fimgs.net/mdimg/perfume-social-cards/en-p_c_64987.jpeg"
+    ],
+    "ownership_stats": {
+        "own": 42.3077,
+        "had": 7.69231,
+        "want": 50.0
+    },
+    "sentiment_stats": {
+        "love": 0.0,
+        "like": 100.0,
+        "ok": 0.0,
+        "dislike": 0.0,
+        "hate": 0.0
+    },
+    "seasonality_stats": {
+        "winter": 20.0,
+        "spring": 100.0,
+        "summer": 60.0,
+        "fall": 80.0,
+        "day": 80.0,
+        "night": 0.0
+    },
+    "url": "https://www.fragrantica.com/perfume/El-Nabil/Musk-Mystic-64987.html"
+}

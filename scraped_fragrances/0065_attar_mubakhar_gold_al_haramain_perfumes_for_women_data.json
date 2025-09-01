@@ -1,0 +1,114 @@
+{
+    "name": "Attar Mubakhar Gold Al Haramain Perfumes for women",
+    "image_url": "https://fimgs.net/mdimg/perfume-thumbs/375x500.19857.jpg",
+    "brand": {
+        "name": "Al Haramain Perfumes",
+        "url": "https://www.fragrantica.com/designers/Al-Haramain-Perfumes.html",
+        "logo_url": "https://fimgs.net/mdimg/dizajneri/m.429.jpg"
+    },
+    "main_accords": [
+        {
+            "name": "warm spicy",
+            "intensity": 100.0
+        },
+        {
+            "name": "amber",
+            "intensity": 60.0739
+        },
+        {
+            "name": "powdery",
+            "intensity": 46.5927
+        },
+        {
+            "name": "metallic",
+            "intensity": 45.5556
+        },
+        {
+            "name": "leather",
+            "intensity": 42.4445
+        }
+    ],
+    "notes": {
+        "Top Notes": [],
+        "Middle Notes": [],
+        "Base Notes": [],
+        "General Notes": [
+            {
+                "name": "Saffron",
+                "intensity": 1.0,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.55.jpg"
+            },
+            {
+                "name": "Cardamom",
+                "intensity": 0.967204,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.63.jpg"
+            },
+            {
+                "name": "Spicy Notes",
+                "intensity": 0.967204,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.321.jpg"
+            },
+            {
+                "name": "Amber",
+                "intensity": 0.967204,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.54.jpg"
+            },
+            {
+                "name": "Agarwood (Oud)",
+                "intensity": 0.735089,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.114.jpg"
+            },
+            {
+                "name": "Incense",
+                "intensity": 0.735089,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.68.jpg"
+            },
+            {
+                "name": "Floral Notes",
+                "intensity": 0.735089,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.314.jpg"
+            },
+            {
+                "name": "Sandalwood",
+                "intensity": 0.735089,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.33.jpg"
+            },
+            {
+                "name": "Musk",
+                "intensity": 0.735089,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.4.jpg"
+            },
+            {
+                "name": "Vanilla",
+                "intensity": 0.735089,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.74.jpg"
+            }
+        ]
+    },
+    "pros": [],
+    "cons": [],
+    "photos": [
+        "https://fimgs.net/mdimg/perfume-social-cards/en-p_c_19857.jpeg"
+    ],
+    "ownership_stats": {
+        "own": 18.3333,
+        "had": 10.0,
+        "want": 71.6667
+    },
+    "sentiment_stats": {
+        "love": 75.0,
+        "like": 100.0,
+        "ok": 25.0,
+        "dislike": 50.0,
+        "hate": 0.0
+    },
+    "seasonality_stats": {
+        "winter": 50.0,
+        "spring": 16.6667,
+        "summer": 0.0,
+        "fall": 66.6667,
+        "day": 83.3333,
+        "night": 100.0
+    },
+    "url": "https://www.fragrantica.com/perfume/Al-Haramain-Perfumes/Attar-Mubakhar-Gold-19857.html"
+}

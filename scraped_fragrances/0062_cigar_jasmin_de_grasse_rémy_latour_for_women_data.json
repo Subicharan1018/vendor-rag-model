@@ -1,0 +1,145 @@
+{
+    "name": "Cigar Jasmin De Grasse Rémy Latour for women",
+    "image_url": "https://fimgs.net/mdimg/perfume-thumbs/375x500.33115.jpg",
+    "brand": {
+        "name": "Rémy Latour",
+        "url": "https://www.fragrantica.com/designers/Remy-Latour.html",
+        "logo_url": "https://fimgs.net/mdimg/dizajneri/m.666.jpg"
+    },
+    "main_accords": [
+        {
+            "name": "woody",
+            "intensity": 100.0
+        },
+        {
+            "name": "powdery",
+            "intensity": 73.1614
+        },
+        {
+            "name": "vanilla",
+            "intensity": 70.8073
+        },
+        {
+            "name": "musky",
+            "intensity": 70.8073
+        },
+        {
+            "name": "warm spicy",
+            "intensity": 69.3945
+        },
+        {
+            "name": "balsamic",
+            "intensity": 50.5605
+        },
+        {
+            "name": "amber",
+            "intensity": 49.462
+        }
+    ],
+    "notes": {
+        "Top Notes": [
+            {
+                "name": "Saffron",
+                "intensity": 0.980706,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.55.jpg"
+            },
+            {
+                "name": "Cinnamon",
+                "intensity": 0.859468,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.65.jpg"
+            },
+            {
+                "name": "Nutmeg",
+                "intensity": 0.782839,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.59.jpg"
+            },
+            {
+                "name": "Oregano",
+                "intensity": 0.735089,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.386.jpg"
+            },
+            {
+                "name": "Cardamom",
+                "intensity": 0.735089,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.63.jpg"
+            },
+            {
+                "name": "Spicy Notes",
+                "intensity": 0.735089,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.321.jpg"
+            }
+        ],
+        "Middle Notes": [
+            {
+                "name": "Cashmere Wood",
+                "intensity": 1.0,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.343.jpg"
+            },
+            {
+                "name": "Papyrus",
+                "intensity": 0.859468,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.206.jpg"
+            }
+        ],
+        "Base Notes": [
+            {
+                "name": "Madagascar Vanilla",
+                "intensity": 1.0,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.74.jpg"
+            },
+            {
+                "name": "Musk",
+                "intensity": 1.0,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.4.jpg"
+            },
+            {
+                "name": "Sandalwood",
+                "intensity": 1.0,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.33.jpg"
+            },
+            {
+                "name": "Cedar",
+                "intensity": 0.894842,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.41.jpg"
+            },
+            {
+                "name": "Amber",
+                "intensity": 0.859468,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.54.jpg"
+            },
+            {
+                "name": "Patchouli",
+                "intensity": 0.820464,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.34.jpg"
+            }
+        ],
+        "General Notes": []
+    },
+    "pros": [],
+    "cons": [],
+    "photos": [
+        "https://fimgs.net/mdimg/perfume-social-cards/en-p_c_33115.jpeg",
+        "https://fimgs.net/photogram/p180/8l/9q/FBFU50G4khxihn3Z.jpg"
+    ],
+    "ownership_stats": {
+        "own": 40.625,
+        "had": 20.3125,
+        "want": 39.0625
+    },
+    "sentiment_stats": {
+        "love": 44.4444,
+        "like": 100.0,
+        "ok": 33.3333,
+        "dislike": 66.6667,
+        "hate": 0.0
+    },
+    "seasonality_stats": {
+        "winter": 66.6667,
+        "spring": 33.3333,
+        "summer": 16.6667,
+        "fall": 100.0,
+        "day": 100.0,
+        "night": 50.0
+    },
+    "url": "https://www.fragrantica.com/perfume/Remy-Latour/Cigar-Jasmin-De-Grasse-33115.html"
+}

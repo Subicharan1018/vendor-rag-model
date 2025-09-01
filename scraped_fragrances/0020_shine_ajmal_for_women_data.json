@@ -1,0 +1,106 @@
+{
+    "name": "Shine Ajmal for women",
+    "image_url": "https://fimgs.net/mdimg/perfume-thumbs/375x500.45399.jpg",
+    "brand": {
+        "name": "Ajmal",
+        "url": "https://www.fragrantica.com/designers/Ajmal.html",
+        "logo_url": "https://fimgs.net/mdimg/dizajneri/m.613.jpg"
+    },
+    "main_accords": [
+        {
+            "name": "woody",
+            "intensity": 100.0
+        },
+        {
+            "name": "fruity",
+            "intensity": 95.1063
+        },
+        {
+            "name": "powdery",
+            "intensity": 70.6368
+        },
+        {
+            "name": "sweet",
+            "intensity": 67.3596
+        },
+        {
+            "name": "floral",
+            "intensity": 57.7031
+        },
+        {
+            "name": "fresh",
+            "intensity": 55.5183
+        },
+        {
+            "name": "fresh spicy",
+            "intensity": 46.4294
+        }
+    ],
+    "notes": {
+        "Top Notes": [
+            {
+                "name": "Strawberry",
+                "intensity": 1.0,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.261.jpg"
+            },
+            {
+                "name": "Pomegranate",
+                "intensity": 1.0,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.193.jpg"
+            }
+        ],
+        "Middle Notes": [
+            {
+                "name": "Peony",
+                "intensity": 0.974022,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.155.jpg"
+            },
+            {
+                "name": "Lily-of-the-Valley",
+                "intensity": 0.735089,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.109.jpg"
+            }
+        ],
+        "Base Notes": [
+            {
+                "name": "Powdery Notes",
+                "intensity": 1.0,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.482.jpg"
+            },
+            {
+                "name": "Woody Notes",
+                "intensity": 1.0,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.315.jpg"
+            }
+        ],
+        "General Notes": []
+    },
+    "pros": [],
+    "cons": [],
+    "photos": [
+        "https://fimgs.net/mdimg/perfume-social-cards/en-p_c_45399.jpeg",
+        "https://fimgs.net/photogram/p180/rc/lh/fY47Ggb3X31055S7.jpg",
+        "https://fimgs.net/photogram/p180/ai/qx/X2cm4ktCFrH3TXsu.jpg"
+    ],
+    "ownership_stats": {
+        "own": 45.1584,
+        "had": 21.7195,
+        "want": 33.1222
+    },
+    "sentiment_stats": {
+        "love": 43.3333,
+        "like": 100.0,
+        "ok": 33.8889,
+        "dislike": 29.4444,
+        "hate": 3.88889
+    },
+    "seasonality_stats": {
+        "winter": 80.9524,
+        "spring": 83.8095,
+        "summer": 46.6667,
+        "fall": 100.0,
+        "day": 94.2857,
+        "night": 71.4286
+    },
+    "url": "https://www.fragrantica.com/perfume/Ajmal/Shine-45399.html"
+}

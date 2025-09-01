@@ -1,0 +1,121 @@
+{
+    "name": "Boys of Summer Henry Rose for women and men",
+    "image_url": "https://fimgs.net/mdimg/perfume-thumbs/375x500.83560.jpg",
+    "brand": {
+        "name": "Henry Rose",
+        "url": "https://www.fragrantica.com/designers/Henry-Rose.html",
+        "logo_url": "https://fimgs.net/mdimg/dizajneri/m.3616.jpg"
+    },
+    "main_accords": [
+        {
+            "name": "aromatic",
+            "intensity": 100.0
+        },
+        {
+            "name": "woody",
+            "intensity": 82.1111
+        },
+        {
+            "name": "lavender",
+            "intensity": 76.6668
+        },
+        {
+            "name": "earthy",
+            "intensity": 70.4448
+        },
+        {
+            "name": "citrus",
+            "intensity": 59.5557
+        },
+        {
+            "name": "green",
+            "intensity": 57.9998
+        },
+        {
+            "name": "fresh spicy",
+            "intensity": 53.3332
+        },
+        {
+            "name": "floral",
+            "intensity": 51.7778
+        },
+        {
+            "name": "herbal",
+            "intensity": 49.4447
+        },
+        {
+            "name": "iris",
+            "intensity": 45.5557
+        }
+    ],
+    "notes": {
+        "Top Notes": [
+            {
+                "name": "Petitgrain",
+                "intensity": 1.0,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.3.jpg"
+            },
+            {
+                "name": "Pink Pepper",
+                "intensity": 0.735089,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.91.jpg"
+            }
+        ],
+        "Middle Notes": [
+            {
+                "name": "Lavender Extract",
+                "intensity": 1.0,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.1.jpg"
+            },
+            {
+                "name": "Magnolia",
+                "intensity": 0.735089,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.147.jpg"
+            }
+        ],
+        "Base Notes": [
+            {
+                "name": "Haitian Vetiver",
+                "intensity": 1.0,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.2.jpg"
+            },
+            {
+                "name": "Orris",
+                "intensity": 0.735089,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.101.jpg"
+            },
+            {
+                "name": "Patchouli",
+                "intensity": 0.735089,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.34.jpg"
+            }
+        ],
+        "General Notes": []
+    },
+    "pros": [],
+    "cons": [],
+    "photos": [
+        "https://fimgs.net/mdimg/perfume-social-cards/en-p_c_83560.jpeg"
+    ],
+    "ownership_stats": {
+        "own": 27.6596,
+        "had": 4.25532,
+        "want": 68.0851
+    },
+    "sentiment_stats": {
+        "love": 75.0,
+        "like": 100.0,
+        "ok": 100.0,
+        "dislike": 25.0,
+        "hate": 0.0
+    },
+    "seasonality_stats": {
+        "winter": 0.0,
+        "spring": 83.3333,
+        "summer": 100.0,
+        "fall": 66.6667,
+        "day": 100.0,
+        "night": 16.6667
+    },
+    "url": "https://www.fragrantica.com/perfume/Henry-Rose/Boys-of-Summer-83560.html"
+}

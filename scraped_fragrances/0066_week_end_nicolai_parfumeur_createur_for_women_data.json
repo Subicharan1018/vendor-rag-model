@@ -1,0 +1,135 @@
+{
+    "name": "Week End Nicolai Parfumeur Createur for women",
+    "image_url": "https://fimgs.net/mdimg/perfume-thumbs/375x500.11686.jpg",
+    "brand": {
+        "name": "Nicolai Parfumeur Createur",
+        "url": "https://www.fragrantica.com/designers/Nicolai-Parfumeur-Createur.html",
+        "logo_url": "https://fimgs.net/mdimg/dizajneri/m.215.jpg"
+    },
+    "main_accords": [
+        {
+            "name": "green",
+            "intensity": 100.0
+        },
+        {
+            "name": "aromatic",
+            "intensity": 86.757
+        },
+        {
+            "name": "fresh",
+            "intensity": 66.892
+        },
+        {
+            "name": "fresh spicy",
+            "intensity": 63.9529
+        },
+        {
+            "name": "white floral",
+            "intensity": 57.0271
+        },
+        {
+            "name": "musky",
+            "intensity": 47.5677
+        }
+    ],
+    "notes": {
+        "Top Notes": [
+            {
+                "name": "Mint",
+                "intensity": 1.0,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.160.jpg"
+            },
+            {
+                "name": "Basil",
+                "intensity": 1.0,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.119.jpg"
+            },
+            {
+                "name": "Tarragon",
+                "intensity": 0.911338,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.93.jpg"
+            }
+        ],
+        "Middle Notes": [
+            {
+                "name": "Galbanum",
+                "intensity": 1.0,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.45.jpg"
+            },
+            {
+                "name": "Lily-of-the-Valley",
+                "intensity": 1.0,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.109.jpg"
+            },
+            {
+                "name": "Granny Smith apple",
+                "intensity": 0.980706,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.146.jpg"
+            },
+            {
+                "name": "Calone",
+                "intensity": 0.894842,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.423.jpg"
+            },
+            {
+                "name": "Jasmine",
+                "intensity": 0.782839,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.14.jpg"
+            },
+            {
+                "name": "Ylang-Ylang",
+                "intensity": 0.782839,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.24.jpg"
+            },
+            {
+                "name": "Cardamom",
+                "intensity": 0.782839,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.63.jpg"
+            }
+        ],
+        "Base Notes": [
+            {
+                "name": "Musk",
+                "intensity": 0.993691,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.4.jpg"
+            },
+            {
+                "name": "Virginia Cedar",
+                "intensity": 0.820464,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.41.jpg"
+            },
+            {
+                "name": "Leather",
+                "intensity": 0.735089,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.156.jpg"
+            }
+        ],
+        "General Notes": []
+    },
+    "pros": [],
+    "cons": [],
+    "photos": [
+        "https://fimgs.net/mdimg/perfume-social-cards/en-p_c_11686.jpeg"
+    ],
+    "ownership_stats": {
+        "own": 29.1209,
+        "had": 12.0879,
+        "want": 58.7912
+    },
+    "sentiment_stats": {
+        "love": 100.0,
+        "like": 100.0,
+        "ok": 6.45161,
+        "dislike": 35.4839,
+        "hate": 0.0
+    },
+    "seasonality_stats": {
+        "winter": 14.8148,
+        "spring": 92.5926,
+        "summer": 62.963,
+        "fall": 14.8148,
+        "day": 100.0,
+        "night": 7.40741
+    },
+    "url": "https://www.fragrantica.com/perfume/Nicolai-Parfumeur-Createur/Week-End-11686.html"
+}

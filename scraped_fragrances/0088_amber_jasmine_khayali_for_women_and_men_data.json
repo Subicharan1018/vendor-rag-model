@@ -1,0 +1,74 @@
+{
+    "name": "Amber Jasmine Khayali for women and men",
+    "image_url": "https://fimgs.net/mdimg/perfume-thumbs/375x500.36649.jpg",
+    "brand": {
+        "name": "Khayali",
+        "url": "https://www.fragrantica.com/designers/Khayali.html",
+        "logo_url": "https://fimgs.net/mdimg/dizajneri/m.1827.jpg"
+    },
+    "main_accords": [
+        {
+            "name": "amber",
+            "intensity": 100.0
+        },
+        {
+            "name": "white floral",
+            "intensity": 100.0
+        },
+        {
+            "name": "animalic",
+            "intensity": 47.5
+        },
+        {
+            "name": "floral",
+            "intensity": 44.0001
+        },
+        {
+            "name": "powdery",
+            "intensity": 40.4999
+        }
+    ],
+    "notes": {
+        "Top Notes": [],
+        "Middle Notes": [],
+        "Base Notes": [],
+        "General Notes": [
+            {
+                "name": "Amber",
+                "intensity": 0.735089,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.54.jpg"
+            },
+            {
+                "name": "Jasmine",
+                "intensity": 0.735089,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.14.jpg"
+            }
+        ]
+    },
+    "pros": [],
+    "cons": [],
+    "photos": [
+        "https://fimgs.net/mdimg/secundar/fit.38262.jpg"
+    ],
+    "ownership_stats": {
+        "own": 0.0,
+        "had": 14.2857,
+        "want": 85.7143
+    },
+    "sentiment_stats": {
+        "love": 0.0,
+        "like": 100.0,
+        "ok": 0.0,
+        "dislike": 0.0,
+        "hate": 100.0
+    },
+    "seasonality_stats": {
+        "winter": 100.0,
+        "spring": 100.0,
+        "summer": 100.0,
+        "fall": 100.0,
+        "day": 100.0,
+        "night": 100.0
+    },
+    "url": "https://www.fragrantica.com/perfume/Khayali/Amber-Jasmine-36649.html"
+}
