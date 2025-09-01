@@ -15,10 +15,10 @@ options = webdriver.ChromeOptions()
 # Uncomment the next line if you want to run in headless mode
 # options.add_argument('--headless')
 driver = webdriver.Chrome(service=service, options=options)
-fn = 'json/cctv_links'
+
 # Read the links.csv file
 links_data = []
-with open('links.csv', 'r', encoding='utf-8') as f:
+with open('indiamart_anchor_links.csv', 'r', encoding='utf-8') as f:
     reader = csv.DictReader(f)
     for row in reader:
         links_data.append(row)
@@ -39,6 +39,8 @@ for index, item in enumerate(links_data):
     data = {
         'url': url,
         'title': title,
+        'price': 'N/A',  # To hold price information
+        'price_unit': 'N/A',  # To hold price unit
         'details': {},  # To hold all key-value pairs from the table
         'description': 'N/A',
         'seller_info': {},  # To hold seller information
@@ -47,6 +49,25 @@ for index, item in enumerate(links_data):
     }
 
     try:
+        # Extract price information
+        try:
+            price_element = driver.find_element(By.ID, 'askprice_pg-1')
+            price_text = price_element.find_element(By.CLASS_NAME, 'price-unit').text
+            # Extract numeric value from price text
+            price_value = ''.join(filter(str.isdigit, price_text))
+            data['price'] = price_value if price_value else 'N/A'
+            
+            # Extract price unit
+            try:
+                unit_element = price_element.find_element(By.CLASS_NAME, 'units')
+                data['price_unit'] = unit_element.text.strip()
+            except NoSuchElementException:
+                data['price_unit'] = 'N/A'
+        except NoSuchElementException:
+            print(f"Price information not found for {url}")
+            data['price'] = 'N/A'
+            data['price_unit'] = 'N/A'
+
         # Wait for the table to load
         WebDriverWait(driver, 10).until(
             EC.presence_of_element_located((By.CSS_SELECTOR, '.fs14.color.tabledesc'))
@@ -313,15 +334,10 @@ for index, item in enumerate(links_data):
         print(f"Error scraping {url}: {e}")
 
     all_products.append(data)
-    
-    # Save progress after each product (optional)
-    if (index + 1) % 5 == 0:
-        with open(fn+'.json', 'w', encoding='utf-8') as f:
-            json.dump(all_products, f, indent=4, ensure_ascii=False)
-        print(f"Saved progress after {index+1} products")
+    print(f"Completed scraping product {index+1}/{len(links_data)}")
 
 # Save all products to a single JSON file
-with open('all_products.json', 'w',encoding='utf-8') as f:
+with open('all_products.json', 'w', encoding='utf-8') as f:
     json.dump(all_products, f, indent=4, ensure_ascii=False)
 
 print(f"Saved all product details for {len(all_products)} products to 'all_products.json'.")

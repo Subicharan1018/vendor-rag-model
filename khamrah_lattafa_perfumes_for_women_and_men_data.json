@@ -1,0 +1,272 @@
+{
+    "name": "Khamrah Lattafa Perfumes for women and men",
+    "image_url": "https://fimgs.net/mdimg/perfume-thumbs/375x500.75805.jpg",
+    "brand": {
+        "name": "Lattafa Perfumes",
+        "url": "https://www.fragrantica.com/designers/Lattafa-Perfumes.html",
+        "logo_url": "https://fimgs.net/mdimg/dizajneri/m.1979.jpg"
+    },
+    "main_accords": [
+        {
+            "name": "sweet",
+            "intensity": 100.0
+        },
+        {
+            "name": "warm spicy",
+            "intensity": 81.5418
+        },
+        {
+            "name": "vanilla",
+            "intensity": 80.0528
+        },
+        {
+            "name": "amber",
+            "intensity": 76.7916
+        },
+        {
+            "name": "cinnamon",
+            "intensity": 67.5279
+        },
+        {
+            "name": "woody",
+            "intensity": 48.9035
+        },
+        {
+            "name": "fresh spicy",
+            "intensity": 48.3869
+        },
+        {
+            "name": "fruity",
+            "intensity": 44.2502
+        }
+    ],
+    "notes": {
+        "Top Notes": [
+            {
+                "name": "Cinnamon",
+                "intensity": 1.0,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.65.jpg"
+            },
+            {
+                "name": "Nutmeg",
+                "intensity": 0.919314,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.59.jpg"
+            },
+            {
+                "name": "Bergamot",
+                "intensity": 0.747551,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.75.jpg"
+            }
+        ],
+        "Middle Notes": [
+            {
+                "name": "Dates",
+                "intensity": 1.0,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.355.jpg"
+            },
+            {
+                "name": "Praline",
+                "intensity": 0.99686,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.198.jpg"
+            },
+            {
+                "name": "Tuberose",
+                "intensity": 0.759653,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.25.jpg"
+            },
+            {
+                "name": "Mahonial",
+                "intensity": 0.735089,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.990.jpg"
+            }
+        ],
+        "Base Notes": [
+            {
+                "name": "Vanilla",
+                "intensity": 1.0,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.74.jpg"
+            },
+            {
+                "name": "Tonka Bean",
+                "intensity": 0.953152,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.73.jpg"
+            },
+            {
+                "name": "Amberwood",
+                "intensity": 0.894842,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.691.jpg"
+            },
+            {
+                "name": "Myrrh",
+                "intensity": 0.859468,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.98.jpg"
+            },
+            {
+                "name": "Benzoin",
+                "intensity": 0.845299,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.69.jpg"
+            },
+            {
+                "name": "Akigalawood",
+                "intensity": 0.82556,
+                "image_url": "https://fimgs.net/mdimg/sastojci/t.697.jpg"
+            }
+        ]
+    },
+    "pros": [
+        {
+            "text": "Affordable alternative to expensive niche fragrances",
+            "up_votes": 2434,
+            "down_votes": 75
+        },
+        {
+            "text": "Long-lasting and strong projection",
+            "up_votes": 2189,
+            "down_votes": 81
+        },
+        {
+            "text": "Unisex fragrance that can be worn by anyone",
+            "up_votes": 1892,
+            "down_votes": 204
+        },
+        {
+            "text": "Great for winter and fall seasons",
+            "up_votes": 1545,
+            "down_votes": 28
+        },
+        {
+            "text": "Sweet and spicy notes that are perfect for gourmand lovers",
+            "up_votes": 1441,
+            "down_votes": 62
+        },
+        {
+            "text": "Bottle design is unique and eye-catching",
+            "up_votes": 1400,
+            "down_votes": 109
+        },
+        {
+            "text": "Shows that fragrance experiences can be democratic and accessible to everyone",
+            "up_votes": 1149,
+            "down_votes": 52
+        },
+        {
+            "text": "Positive reactions and compliments from others",
+            "up_votes": 1054,
+            "down_votes": 88
+        }
+    ],
+    "cons": [
+        {
+            "text": "Not a good option for those who prefer subtle or understated fragrances",
+            "up_votes": 1583,
+            "down_votes": 172
+        },
+        {
+            "text": "Some may find the fragrance too sweet or cloying",
+            "up_votes": 1622,
+            "down_votes": 344
+        },
+        {
+            "text": "May not be suitable for those who dislike boozy or balsamic scents",
+            "up_votes": 1297,
+            "down_votes": 275
+        },
+        {
+            "text": "Not suitable for summer or spring seasons",
+            "up_votes": 1109,
+            "down_votes": 275
+        },
+        {
+            "text": "Some may find the fragrance too feminine or masculine for their liking",
+            "up_votes": 379,
+            "down_votes": 761
+        },
+        {
+            "text": "May not be suitable for those who do not like strong myrrh or incense scents",
+            "up_votes": 199,
+            "down_votes": 746
+        },
+        {
+            "text": "Not suitable for those who dislike synthetic wood scents",
+            "up_votes": 143,
+            "down_votes": 865
+        },
+        {
+            "text": "Some may find the fragrance too similar to other Lattafa fragrances",
+            "up_votes": 69,
+            "down_votes": 952
+        }
+    ],
+    "photos": [
+        "https://fimgs.net/mdimg/perfume-social-cards/en-p_c_75805.jpeg",
+        "https://fimgs.net/photogram/p180/7d/1o/WjxNfbZBlSWi3s4O.jpg",
+        "https://fimgs.net/photogram/p180/h4/mo/aVRTCZojNiPNkbPX.jpg",
+        "https://fimgs.net/photogram/p180/yr/9y/iU8kyXmVJJ7EkKgp.jpg",
+        "https://fimgs.net/photogram/p180/6o/m7/u1EoWA8W8inVIzVK.jpg",
+        "https://fimgs.net/photogram/p180/lg/so/xnmgwkKnzGYtqm4A.jpg",
+        "https://fimgs.net/photogram/p180/vr/vy/h2WDKRenxf7EFSnm.jpg",
+        "https://fimgs.net/photogram/p180/xf/pl/YtDqLglsPGf8qImH.jpg",
+        "https://fimgs.net/photogram/p180/w4/vt/AkUF8zhWs0KNItas.jpg",
+        "https://fimgs.net/photogram/p180/p8/ix/1VVhfX67NsXljm2v.jpg",
+        "https://fimgs.net/photogram/p180/um/se/2R5mqDHOd3pYc84f.jpg",
+        "https://fimgs.net/photogram/p180/gf/3w/bnOActnbUZITYG3w.jpg",
+        "https://fimgs.net/photogram/p180/9a/hy/Hgmz0qvt9HXg4lx0.jpg",
+        "https://fimgs.net/photogram/p180/7u/he/qJ53LI7IvB0VXbwM.jpg",
+        "https://fimgs.net/photogram/p180/ok/fz/zTZuLVMzEU9ve41U.jpg",
+        "https://fimgs.net/photogram/p180/fd/ug/c4FO1snhkXC7wSW7.jpg",
+        "https://fimgs.net/photogram/p180/lc/qf/zr5YxK9kikXKDOYj.jpg",
+        "https://videodelivery.net/9da3547c9baf79555f7363e0271b96f3/thumbnails/thumbnail.jpg",
+        "https://fimgs.net/photogram/p180/vz/fd/4EmYtlxcKFCKptcE.jpg",
+        "https://fimgs.net/photogram/p180/th/qe/chrUJX4gKpdm65sh.jpg",
+        "https://fimgs.net/photogram/p180/ls/mw/Z8UFdS85RCEyZ2kn.jpg",
+        "https://fimgs.net/photogram/p180/bb/i1/rp3F6tECbR0pRP7P.jpg",
+        "https://fimgs.net/photogram/p180/lv/vw/4aLSgdzjk3FE2FBt.jpg",
+        "https://fimgs.net/photogram/p180/dd/e0/b3phPaWv5CEzcAS3.jpg",
+        "https://fimgs.net/photogram/p180/zq/uh/gyBratVATM5PhFOx.jpg",
+        "https://fimgs.net/photogram/p180/ad/z0/P4xwO3loJW4gAeKP.jpg",
+        "https://fimgs.net/photogram/p180/p8/qp/1GtsCNbjyXaiPu62.jpg",
+        "https://fimgs.net/photogram/p180/4t/4j/dScEkSunJKoWoake.jpg",
+        "https://fimgs.net/photogram/p180/3v/vh/z8fSdi7r3n5e6shu.jpg",
+        "https://fimgs.net/photogram/p180/xz/jx/4PRgpumLNBVMXyvc.jpg",
+        "https://fimgs.net/photogram/p180/pa/ns/zKhc6v5VU4URlm1t.jpg",
+        "https://fimgs.net/photogram/p180/of/r9/cDrcgghR3dIDfI2h.jpg",
+        "https://fimgs.net/photogram/p180/h0/qi/vZkzm4LIEa90BAQ9.jpg",
+        "https://fimgs.net/photogram/p180/6s/pg/9NClGuVHKLyGqxOl.jpg",
+        "https://fimgs.net/photogram/p180/wl/s8/5BbP5GIULEayFb14.jpg",
+        "https://fimgs.net/photogram/p180/zq/bn/OooMkkCS5WplnzTs.jpg",
+        "https://fimgs.net/photogram/p180/ya/v7/uLmAPXRtz2sxX2oa.jpg",
+        "https://fimgs.net/photogram/p180/fm/p9/xvb0aykFGEWJRlc5.jpg",
+        "https://fimgs.net/photogram/p180/gn/bm/mijWiGIZsIdEt6FD.jpg",
+        "https://fimgs.net/photogram/p180/co/s0/TJGXEZ1NdLfjxS1C.jpg",
+        "https://fimgs.net/photogram/p180/at/sc/gRj3gH5xX3S580iC.jpg",
+        "https://fimgs.net/photogram/p180/rx/4x/ajJOV7Kb1XD4asN4.jpg",
+        "https://fimgs.net/photogram/p180/af/rt/HMIIrHS1LwqMyfSv.jpg",
+        "https://fimgs.net/photogram/p180/sa/4a/Qa37W5xegOsVeI3k.jpg",
+        "https://fimgs.net/photogram/p180/xp/gu/Zgr46kzMvKIqC0k5.jpg",
+        "https://fimgs.net/photogram/p180/5e/ck/oewmpL4aNGWQFrV2.jpg",
+        "https://fimgs.net/photogram/p180/7b/zl/NmFIXZ0kcuIPvleB.jpg",
+        "https://fimgs.net/photogram/p180/yf/ao/P2oJVxwmfaaCW3rX.jpg",
+        "https://fimgs.net/photogram/p180/s4/zj/ASUAupwOOEEeMSBo.jpg"
+    ],
+    "ownership_stats": {
+        "own": 59.3204,
+        "had": 8.03084,
+        "want": 32.6488
+    },
+    "sentiment_stats": {
+        "love": 100.0,
+        "like": 44.9559,
+        "ok": 14.3322,
+        "dislike": 8.67631,
+        "hate": 4.99701
+    },
+    "seasonality_stats": {
+        "winter": 100.0,
+        "spring": 22.0481,
+        "summer": 12.8198,
+        "fall": 83.45,
+        "day": 37.5789,
+        "night": 80.226
+    },
+    "url": "https://www.fragrantica.com/perfume/Lattafa-Perfumes/Khamrah-75805.html"
+}
