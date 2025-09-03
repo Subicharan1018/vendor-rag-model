@@ -21,7 +21,7 @@ class FragranceScraper:
     def load_progress(self):
         """Load progress from file or create new progress data"""
         default_progress = {
-            "current_index": 0,
+            "current_index": 1001,
             "total_processed": 0,
             "successful_scrapes": 0,
             "failed_scrapes": 0,
