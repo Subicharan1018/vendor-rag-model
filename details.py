@@ -1,36 +1,26 @@
+import json
+import csv
+import time
+import os
+from multiprocessing import Pool
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException, NoSuchElementException
-import csv
-import json
-import time
-import os
 
-# Set up Selenium with Chrome
-service = Service()
-options = webdriver.ChromeOptions()
-# Uncomment the next line if you want to run in headless mode
-# options.add_argument('--headless')
-driver = webdriver.Chrome(service=service, options=options)
-
-# Read the links.csv file
-links_data = []
-with open('indiamart_anchor_links.csv', 'r', encoding='utf-8') as f:
-    reader = csv.DictReader(f)
-    for row in reader:
-        links_data.append(row)
-
-# List to hold all product data
-all_products = []
-
-# Scrape details from each product page
-for index, item in enumerate(links_data):
+def scrape_product(item):
+    # Set up Selenium with Chrome for each process
+    service = Service()
+    options = webdriver.ChromeOptions()
+    # Uncomment the next line for headless mode
+    # options.add_argument('--headless')
+    driver = webdriver.Chrome(service=service, options=options)
+    
     url = item['href']
     title = item['title']
-    print(f"Scraping {index+1}/{len(links_data)}: {title}")
+    print(f"Scraping: {title} (Process {os.getpid()})")
     
     driver.get(url)
     time.sleep(3)  # Wait for page to load
@@ -39,13 +29,13 @@ for index, item in enumerate(links_data):
     data = {
         'url': url,
         'title': title,
-        'price': 'N/A',  # To hold price information
-        'price_unit': 'N/A',  # To hold price unit
-        'details': {},  # To hold all key-value pairs from the table
+        'price': 'N/A',
+        'price_unit': 'N/A',
+        'details': {},
         'description': 'N/A',
-        'seller_info': {},  # To hold seller information
-        'company_info': {},  # To hold company information
-        'reviews': []  # To hold reviews
+        'seller_info': {},
+        'company_info': {},
+        'reviews': []
     }
 
     try:
@@ -53,11 +43,9 @@ for index, item in enumerate(links_data):
         try:
             price_element = driver.find_element(By.ID, 'askprice_pg-1')
             price_text = price_element.find_element(By.CLASS_NAME, 'price-unit').text
-            # Extract numeric value from price text
             price_value = ''.join(filter(str.isdigit, price_text))
             data['price'] = price_value if price_value else 'N/A'
             
-            # Extract price unit
             try:
                 unit_element = price_element.find_element(By.CLASS_NAME, 'units')
                 data['price_unit'] = unit_element.text.strip()
@@ -82,7 +70,6 @@ for index, item in enumerate(links_data):
                 cells = row.find_elements(By.TAG_NAME, 'td')
                 if len(cells) >= 2:
                     key = cells[0].text.strip().replace(' ', '_').lower()
-                    # Handle the case where value might be in a span with class 'datatooltip'
                     value_elements = cells[1].find_elements(By.CSS_SELECTOR, 'span.datatooltip')
                     if value_elements:
                         value = value_elements[0].text.strip()
@@ -90,7 +77,7 @@ for index, item in enumerate(links_data):
                         value = cells[1].text.strip()
                     data['details'][key] = value
             except Exception as e:
-                print(f"Error processing row: {e}")
+                print(f"Error processing row for {url}: {e}")
                 continue
 
         # Extract description
@@ -105,56 +92,48 @@ for index, item in enumerate(links_data):
         try:
             seller_box = driver.find_element(By.CSS_SELECTOR, '.cmpbox.verT.pd_flsh')
             
-            # Extract seller location
             try:
                 location_element = seller_box.find_element(By.CSS_SELECTOR, '.city-highlight')
                 data['seller_info']['location'] = location_element.text.strip()
             except NoSuchElementException:
                 data['seller_info']['location'] = 'N/A'
             
-            # Extract seller name
             try:
                 seller_name_element = seller_box.find_element(By.CSS_SELECTOR, 'h2.fs15')
                 data['seller_info']['seller_name'] = seller_name_element.text.strip()
             except NoSuchElementException:
                 data['seller_info']['seller_name'] = 'N/A'
             
-            # Extract GST number
             try:
                 gst_element = seller_box.find_element(By.CSS_SELECTOR, '.fs11.color1')
                 data['seller_info']['gst_number'] = gst_element.text.strip()
             except NoSuchElementException:
                 data['seller_info']['gst_number'] = 'N/A'
             
-            # Extract TrustSEAL verification
             try:
                 trustseal_element = seller_box.find_element(By.XPATH, "//*[contains(text(), 'TrustSEAL Verified')]")
                 data['seller_info']['trustseal_verified'] = True
             except NoSuchElementException:
                 data['seller_info']['trustseal_verified'] = False
             
-            # Extract years of experience
             try:
                 years_element = seller_box.find_element(By.XPATH, "//*[contains(text(), 'yrs')]")
                 data['seller_info']['years_of_experience'] = years_element.text.strip()
             except NoSuchElementException:
                 data['seller_info']['years_of_experience'] = 'N/A'
             
-            # Extract rating
             try:
                 rating_element = seller_box.find_element(By.CSS_SELECTOR, '.bo.color')
                 data['seller_info']['rating'] = rating_element.text.strip()
             except NoSuchElementException:
                 data['seller_info']['rating'] = 'N/A'
             
-            # Extract number of reviews
             try:
                 reviews_element = seller_box.find_element(By.CLASS_NAME, 'tcund')
                 data['seller_info']['number_of_reviews'] = reviews_element.text.strip()
             except NoSuchElementException:
                 data['seller_info']['number_of_reviews'] = 'N/A'
             
-            # Extract response rate - FIXED SELECTOR
             try:
                 response_rate_element = seller_box.find_element(By.XPATH, ".//*[contains(text(), 'Response Rate')]")
                 data['seller_info']['response_rate'] = response_rate_element.text.strip()
@@ -169,21 +148,18 @@ for index, item in enumerate(links_data):
         try:
             rdsp_box = driver.find_element(By.CSS_SELECTOR, '.rdsp')
             
-            # Extract contact person name
             try:
                 contact_person_element = rdsp_box.find_element(By.ID, 'supp_nm')
                 data['seller_info']['contact_person'] = contact_person_element.text.strip()
             except NoSuchElementException:
                 data['seller_info']['contact_person'] = 'N/A'
             
-            # Extract full address
             try:
                 address_element = rdsp_box.find_element(By.CSS_SELECTOR, '#g_img span.color1')
                 data['seller_info']['full_address'] = address_element.text.strip()
             except NoSuchElementException:
                 data['seller_info']['full_address'] = 'N/A'
             
-            # Extract website URL
             try:
                 website_element = rdsp_box.find_element(By.CSS_SELECTOR, 'a.color1.utd')
                 data['seller_info']['website'] = website_element.get_attribute('href')
@@ -192,14 +168,12 @@ for index, item in enumerate(links_data):
 
         except NoSuchElementException:
             print(f"Seller information (rdsp) not found for {url}")
-            # Don't overwrite existing seller_info, just add note
             data['seller_info']['rdsp_info'] = 'Not available'
 
         # Extract company information from About the Company section
         try:
             about_section = driver.find_element(By.ID, 'aboutUs')
             
-            # Extract company details
             try:
                 detail_elements = about_section.find_elements(By.CSS_SELECTOR, '.lh21.pdinb.wid3.mb20.verT')
                 for detail in detail_elements:
@@ -212,7 +186,6 @@ for index, item in enumerate(links_data):
             except NoSuchElementException:
                 print("Company details not found")
             
-            # Extract company description
             try:
                 desc_element = about_section.find_element(By.CSS_SELECTOR, '.companyDescBelow')
                 data['company_info']['description'] = desc_element.text.strip()
@@ -227,7 +200,6 @@ for index, item in enumerate(links_data):
         try:
             reviews_section = driver.find_element(By.ID, 'sellerRating')
             
-            # Extract overall rating information
             try:
                 overall_rating = reviews_section.find_element(By.CSS_SELECTOR, '.bo.fs30')
                 data['reviews'].append({
@@ -237,17 +209,12 @@ for index, item in enumerate(links_data):
             except NoSuchElementException:
                 pass
             
-            # Extract rating distribution - FIXED SELECTOR
             try:
                 rating_bars = reviews_section.find_elements(By.CSS_SELECTOR, '.dsf.pd_aic.lh20')
                 for bar in rating_bars:
                     try:
-                        # Get the star rating text (e.g., "5★")
                         stars_text = bar.find_element(By.CSS_SELECTOR, 'span:first-child').text.strip()
-                        
-                        # Get the percentage text - look for the last span element
                         percentage_text = bar.find_elements(By.TAG_NAME, 'span')[-1].text.strip()
-                        
                         data['reviews'].append({
                             'type': 'rating_distribution',
                             'stars': stars_text,
@@ -258,7 +225,6 @@ for index, item in enumerate(links_data):
             except NoSuchElementException:
                 pass
             
-            # Extract performance metrics
             try:
                 performance_metrics = reviews_section.find_elements(By.CSS_SELECTOR, '.crlcrd')
                 for metric in performance_metrics:
@@ -275,33 +241,21 @@ for index, item in enumerate(links_data):
             except NoSuchElementException:
                 pass
             
-            # Extract individual reviews - FIXED SELECTORS
             try:
                 review_elements = reviews_section.find_elements(By.CSS_SELECTOR, '.brdE0b.pd15')
                 for review in review_elements:
                     try:
-                        # Extract rating
                         rating_element = review.find_element(By.CSS_SELECTOR, '.rtSml')
                         rating = rating_element.text.strip().replace('\n', ' ')
-                        
-                        # Extract reviewer information
                         reviewer_info = review.find_element(By.CSS_SELECTOR, '.pWdBk')
                         reviewer_name = reviewer_info.find_element(By.CSS_SELECTOR, '.color').text.strip()
-                        
-                        # Extract reviewer location (all text except the name)
                         reviewer_location_text = reviewer_info.find_element(By.CSS_SELECTOR, '.fs14.clr82').text.strip()
                         reviewer_location = reviewer_location_text.replace(reviewer_name, '').strip()
-                        
-                        # Extract review date and product
                         date_product = reviewer_info.find_element(By.CSS_SELECTOR, '.fs12.clr82').text.strip()
-                        
-                        # Extract review text
                         try:
                             review_text = review.find_element(By.CSS_SELECTOR, '.fs16.color.mt10').text.strip()
                         except NoSuchElementException:
                             review_text = ''
-                        
-                        # Extract response indicators
                         response_indicators = []
                         try:
                             indicators = review.find_elements(By.CSS_SELECTOR, '.pfsh.inRqd p')
@@ -309,7 +263,6 @@ for index, item in enumerate(links_data):
                                 response_indicators.append(indicator.text.strip())
                         except NoSuchElementException:
                             pass
-                        
                         data['reviews'].append({
                             'type': 'individual_review',
                             'rating': rating,
@@ -333,13 +286,41 @@ for index, item in enumerate(links_data):
     except Exception as e:
         print(f"Error scraping {url}: {e}")
 
-    all_products.append(data)
-    print(f"Completed scraping product {index+1}/{len(links_data)}")
+    driver.quit()
+    return data
 
-# Save all products to a single JSON file
-with open('all_products.json', 'w', encoding='utf-8') as f:
-    json.dump(all_products, f, indent=4, ensure_ascii=False)
+def main():
+    # Read the links.csv file
+    links_data = []
+    with open('indiamart_anchor_links.csv', 'r', encoding='utf-8') as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            links_data.append(row)
 
-print(f"Saved all product details for {len(all_products)} products to 'all_products.json'.")
+    # Split links_data into four chunks
+    num_processes = 4
+    chunk_size = len(links_data) // num_processes
+    chunks = [links_data[i:i + chunk_size] for i in range(0, len(links_data), chunk_size)]
+    
+    # Adjust the last chunk to include any remaining items
+    if len(chunks) > num_processes:
+        chunks[-2].extend(chunks[-1])
+        chunks.pop()
 
-driver.quit()
+    # Create a process pool and scrape in parallel
+    with Pool(processes=num_processes) as pool:
+        results = pool.map(scrape_product, chunks[0] + chunks[1] + chunks[2] + chunks[3])
+
+    # Combine results
+    all_products = []
+    for result in results:
+        all_products.append(result)
+
+    # Save all products to a single JSON file
+    with open('all_products.json', 'w', encoding='utf-8') as f:
+        json.dump(all_products, f, indent=4, ensure_ascii=False)
+
+    print(f"Saved all product details for {len(all_products)} products to 'all_products.json'.")
+
+if __name__ == '__main__':
+    main()

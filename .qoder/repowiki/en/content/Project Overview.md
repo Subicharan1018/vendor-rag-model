@@ -160,16 +160,16 @@ The `seek/rag.py` implementation extends the basic RAG system with advanced feat
 #### Project Specification Extraction
 ```mermaid
 flowchart TD
-A[User Query] --> B{Contains Project<br/>Specifications?}
-B --> |Yes| C[Extract Power Capacity<br/>(\d+ Mega?Watt)]
-B --> |Yes| D[Extract Built-up Area<br/>(\d+ Lacs? SquareFoot)]
-B --> |Yes| E[Extract Project Volume<br/>(\d+ Cr in Rupees)]
-B --> |Yes| F[Extract Location<br/>(in [\w\s]+)$)]
-C --> G[Store in Requirements]
-D --> G
-E --> G
-F --> G
-G --> H[Material Estimation]
+    A["User Query"] --> B{"Contains Project<br/>Specifications?"}
+    B --> |Yes| C["Extract Power Capacity<br/>(\\d+ Mega?Watt)"]
+    B --> |Yes| D["Extract Built-up Area<br/>(\\d+ Lacs? SquareFoot)"]
+    B --> |Yes| E["Extract Project Volume<br/>(\\d+ Cr in Rupees)"]
+    B --> |Yes| F["Extract Location<br/>(in [\\w\\s]+)$)"]
+    C --> G["Store in Requirements"]
+    D --> G
+    E --> G
+    F --> G
+    G --> H["Material Estimation"]
 ```
 
 **Diagram sources**

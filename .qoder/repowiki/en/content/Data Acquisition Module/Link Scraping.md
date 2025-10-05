@@ -35,27 +35,27 @@ The link scraping module consists of three primary functions that work in concer
 
 ```mermaid
 graph TB
-subgraph "Input Sources"
-CSV1[facility_construction_summary.csv]
-CSV2[construction_materials_by_facility.csv]
-end
-subgraph "Link Scraping Module"
-Driver[setup_driver()]
-Extractor[extract_material_names()]
-Scraper[search_indiamart()]
-Main[main()]
-end
-subgraph "Output & Integration"
-Links[indiamart_anchor_links.csv]
-Details[details.py]
-end
-CSV1 --> Extractor
-CSV2 --> Extractor
-Extractor --> Main
-Driver --> Main
-Main --> Scraper
-Scraper --> Links
-Links --> Details
+    subgraph "Input Sources"
+        CSV1["facility_construction_summary.csv"]
+        CSV2["construction_materials_by_facility.csv"]
+    end
+    subgraph "Link Scraping Module"
+        Driver["setup_driver()"]
+        Extractor["extract_material_names()"]
+        Scraper["search_indiamart()"]
+        Main["main()"]
+    end
+    subgraph "Output & Integration"
+        Links["indiamart_anchor_links.csv"]
+        Details["details.py"]
+    end
+    CSV1 --> Extractor
+    CSV2 --> Extractor
+    Extractor --> Main
+    Driver --> Main
+    Main --> Scraper
+    Scraper --> Links
+    Links --> Details
 style Driver fill:#f9f,stroke:#333
 style Extractor fill:#f9f,stroke:#333
 style Scraper fill:#f9f,stroke:#333
