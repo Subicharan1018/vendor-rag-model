@@ -1,0 +1,80 @@
+{
+    "Workspace": {
+        "Structural_Materials": ["Steel Frame (Beams, Columns)", "Reinforced Concrete (Foundation, Slabs)", "Composite Floor Systems", "Steel Decking", "Precast Concrete Elements"],
+        "Envelope_Materials": ["Concrete Masonry Unit (CMU)", "Insulated CMU", "Limestone Cladding", "Autoclaved Aerated Concrete (AAC)", "Double/Triple Glazing", "Curtain Wall Systems"],
+        "Interior_Materials": ["High-Pressure Laminate (HPL)", "Vinyl Composition Tile", "Vinyl Composition Tile", "Gypsum Drywall", "Suspended Ceiling Systems", "Acoustic Materials"],
+        "Specialized_Components": ["HVAC Systems", "Electrical Infrastructure", "Fire Protection Systems", "Security Systems", "Elevators"]
+    },
+    "Health Center": {
+        "Structural_Materials": ["Reinforced Concrete Frame", "Steel Composite Systems", "Precast Concrete", "Steel Reinforcement", "Heavy-Duty Floor Systems"],
+        "Envelope_Materials": ["High-Performance Glazing", "Insulated Wall Systems", "Weather-Resistant Barriers", "Fire-Rated Construction", "Thermal Insulation"],
+        "Interior_Materials": ["Antimicrobial Surfaces", "Seamless Flooring Systems", "Washable Wall Finishes", "Lead-Lined Materials (Imaging)", "Slip-Resistant Flooring", "Infection Control Materials"],
+        "Specialized_Components": ["Medical Gas Systems", "Specialized HVAC (100% Outside Air)", "Emergency Power Systems", "Medical Equipment Infrastructure", "Radiation Shielding Materials", "Cleanroom Components"]
+    },
+    "Learning Hub": {
+        "Structural_Materials": ["Reinforced Concrete (Primary)", "Steel Frame Elements", "Long-Span Concrete Beams", "Composite Floor Systems", "Foundation Systems"],
+        "Envelope_Materials": ["High-Performance Glazing", "Insulated Concrete Panels", "Weather-Resistant Materials", "Acoustic Glazing", "Thermal Barriers"],
+        "Interior_Materials": ["Flexible Flooring Systems", "Movable Partition Systems", "Acoustic Materials", "Durable Surface Finishes", "Anti-Vandal Materials", "Interactive Surface Materials"],
+        "Specialized_Components": ["Advanced AV Infrastructure", "Smart Building Systems", "Flexible Electrical Systems", "Natural Ventilation Systems", "Technology Integration Infrastructure"]
+    },
+    "Ambulatory Care": {
+        "Structural_Materials": ["Steel Frame Construction", "Reinforced Concrete", "Composite Floor Systems", "Seismic-Resistant Elements", "Fire-Rated Assemblies"],
+        "Envelope_Materials": ["High-Performance Glazing", "Insulated Wall Systems", "Fire-Resistant Materials", "Weather Protection Systems", "Acoustic Barriers"],
+        "Interior_Materials": ["Healthcare-Grade Flooring", "Antimicrobial Wall Finishes", "Seamless Surface Materials", "Slip-Resistant Materials", "Easy-Clean Surfaces"],
+        "Specialized_Components": ["Medical Infrastructure Systems", "Specialized HVAC Systems", "Emergency Systems", "Infection Control Systems", "Patient Privacy Systems"]
+    },
+    "Hospitality Hall": {
+        "Structural_Materials": ["Steel Frame", "Reinforced Concrete", "Composite Construction", "Long-Span Systems", "Foundation Elements"],
+        "Envelope_Materials": ["Architectural Glazing", "Stone Cladding", "Brick Veneer", "Insulated Wall Systems", "Weather-Resistant Materials"],
+        "Interior_Materials": ["Hardwood Flooring", "Ceramic Tile", "Commercial Carpet", "Decorative Wall Finishes", "Acoustic Materials", "Fire-Rated Materials"],
+        "Specialized_Components": ["Commercial Kitchen Systems", "Large-Scale HVAC", "Audio-Visual Systems", "Fire Suppression Systems", "Hospitality Infrastructure"]
+    },
+    "Critical Ops": {
+        "Structural_Materials": ["Reinforced Concrete (Primary)", "Hardened Steel Systems", "Blast-Resistant Materials", "Redundant Structural Systems", "Heavy-Duty Foundations"],
+        "Envelope_Materials": ["Ballistic-Resistant Glazing", "Reinforced Wall Systems", "Security Barriers", "Fire-Resistant Materials", "EMI Shielding Materials"],
+        "Interior_Materials": ["Anti-Static Flooring", "Secure Wall Finishes", "Blast-Resistant Materials", "EMI-Compliant Materials", "Security-Grade Finishes"],
+        "Specialized_Components": ["Redundant Power Systems (N+1)", "Backup Generator Systems", "Uninterruptible Power Supply (UPS)", "Advanced Security Systems", "Mission-Critical HVAC", "Communication Systems"]
+    },
+    "R&D Laboratories": {
+        "Structural_Materials": ["Reinforced Concrete Frame", "Steel Support Systems", "Vibration-Resistant Construction", "Heavy Load-Bearing Systems", "Chemical-Resistant Concrete"],
+        "Envelope_Materials": ["High-Performance Glazing", "Chemical-Resistant Materials", "Blast-Resistant Glazing", "Specialized Insulation", "Contamination Barriers"],
+        "Interior_Materials": ["Chemical-Resistant Flooring", "Laboratory-Grade Wall Finishes", "Epoxy Floor Systems", "Seamless Surface Materials", "Anti-Static Materials"],
+        "Specialized_Components": ["Laboratory Fume Hoods", "Specialized Ventilation Systems", "Chemical Storage Systems", "Laboratory Utility Systems", "Containment Systems", "Safety Equipment Infrastructure"]
+    },
+    "Misc Build": {
+        "Structural_Materials": ["Steel Frame", "Concrete Block", "Reinforced Concrete", "Wood Frame (Light Construction)", "Composite Materials"],
+        "Envelope_Materials": ["Metal Siding", "Concrete Panels", "Vinyl Siding", "Standard Glazing", "Basic Insulation"],
+        "Interior_Materials": ["Drywall", "Basic Flooring Materials", "Standard Paint Finishes", "Suspended Ceiling", "Basic Trim Materials"],
+        "Specialized_Components": ["Standard HVAC Systems", "Basic Electrical Systems", "Standard Plumbing", "Fire Safety Systems", "Basic Infrastructure"]
+    },
+    "Pharma Synth": {
+        "Structural_Materials": ["Stainless Steel Frame", "Chemical-Resistant Concrete", "Corrosion-Resistant Steel", "Reinforced Foundation Systems", "Containment Structures"],
+        "Envelope_Materials": ["Chemical-Resistant Cladding", "Explosion-Proof Glazing", "Fire-Resistant Materials", "Sealed Building Envelope", "Contamination Barriers"],
+        "Interior_Materials": ["Chemical-Resistant Flooring", "Stainless Steel Surfaces", "Glass-Lined Equipment", "Seamless Wall Systems", "Cleanroom Materials"],
+        "Specialized_Components": ["Explosion-Proof Electrical Systems", "Chemical Processing Equipment", "Containment Systems", "Specialized HVAC with Filtration", "Safety and Emergency Systems", "Waste Treatment Systems"]
+    },
+    "Logistics Hub": {
+        "Structural_Materials": ["Steel Frame Construction", "Concrete Tilt-Up Panels", "Pre-Engineered Building (PEB) Systems", "Heavy-Duty Floor Systems", "Long-Span Roof Systems"],
+        "Envelope_Materials": ["Metal Wall Panels", "Insulated Panel Systems", "Large Opening Systems", "Weather-Resistant Materials", "Loading Dock Equipment"],
+        "Interior_Materials": ["Industrial Flooring", "Warehouse Lighting Systems", "Minimal Interior Finishes", "Durable Surface Materials", "Safety Markings"],
+        "Specialized_Components": ["Material Handling Systems", "Warehouse Management Infrastructure", "Heavy-Duty HVAC Systems", "Fire Suppression Systems", "Security Systems", "Loading Equipment"]
+    },
+    "Smart Fabrication": {
+        "Structural_Materials": ["Advanced Steel Systems", "High-Performance Concrete", "Composite Materials", "Precision-Engineered Components", "Modular Construction Elements"],
+        "Envelope_Materials": ["Smart Glass Systems", "Adaptive Building Materials", "High-Performance Insulation", "Integrated Solar Materials", "Smart Facade Systems"],
+        "Interior_Materials": ["Smart Flooring Systems", "Interactive Wall Materials", "Adaptive Interior Components", "Technology-Integrated Materials", "Responsive Surface Materials"],
+        "Specialized_Components": ["Automated Manufacturing Equipment", "Precision Control Systems", "Smart Building Infrastructure", "Advanced Material Handling", "Quality Control Systems", "Digital Integration Systems"]
+    },
+    "Commerce Space": {
+        "Structural_Materials": ["Steel Frame Construction", "Composite Floor Systems", "Long-Span Beams", "Flexible Structural Systems", "Foundation Systems"],
+        "Envelope_Materials": ["Large Glazing Systems", "Attractive Facade Materials", "Weather-Resistant Finishes", "Insulated Wall Systems", "Signage Integration Materials"],
+        "Interior_Materials": ["Retail Flooring Systems", "Flexible Partition Systems", "Decorative Wall Finishes", "Commercial Lighting Systems", "Acoustic Materials"],
+        "Specialized_Components": ["Retail Infrastructure Systems", "Point-of-Sale Infrastructure", "Security Systems", "HVAC for Retail", "Fire Protection Systems", "Customer Amenity Systems"]
+    },
+    "Data Center": {
+        "Structural_Materials": ["Reinforced Concrete (Primary)", "Steel Frame Systems", "Heavy-Duty Floor Systems", "Vibration-Resistant Construction", "Seismic-Resistant Elements"],
+        "Envelope_Materials": ["Insulated Concrete Panels", "High-Security Glazing", "Fire-Resistant Materials", "Weather-Resistant Systems", "EMI Shielding Materials"],
+        "Interior_Materials": ["Raised Floor Systems", "Anti-Static Flooring", "Fire-Resistant Materials", "Cable Management Systems", "Environmental Sealing Materials"],
+        "Specialized_Components": ["Redundant Power Systems (N+1)", "Precision Cooling Systems", "Backup Generator Systems", "UPS Systems", "Advanced Fire Suppression", "Security Infrastructure", "High-Density Electrical Systems"]
+    }
+}
