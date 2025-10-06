@@ -133,8 +133,21 @@ class IndiaMART_RAG:
                             doc_str += f"{key.replace('/', ' ').title()}: {value}\n"
             
             company_info = metadata.get('company_info', {})
+            seller_info = metadata.get('seller_info', {})
             if company_info.get('gst'):
                 doc_str += f"GST: {company_info['gst']}\n"
+            if 'gst_registration_date' in company_info:
+                doc_str += f"GST Registration Date: {company_info['gst_registration_date']}\n"
+            if seller_info:
+                if 'contact_person' in seller_info:
+                    doc_str += f"Contact Person: {seller_info['contact_person']}\n"
+                if 'full_address' in seller_info:
+                    doc_str += f"Address: {seller_info['full_address']}\n"
+                if 'website' in seller_info:
+                    doc_str += f"Website: {seller_info['website']}\n"
+            if company_info:
+                if 'description' in company_info:
+                    doc_str += f"Company Description: {company_info['description'][:200]}...\n"
             if metadata.get('reviews'):
                 for review in metadata['reviews']:
                     if review.get('type') == 'overall_rating':
@@ -144,11 +157,11 @@ class IndiaMART_RAG:
             context_text += f"Document {i+1}:\n{doc_str[:500]}\n\n"
 
         if material_estimates:
-            materials_text = "Materials:\n" + "\n".join([f"- {m['Material/Equipment']} ({m['Quantity']})" for m in material_estimates[:3]])
+            materials_text = "Materials:\n" + "\n".join([f"- {m['Material/Equipment']} ({m['Quantity']})" for m in material_estimates])
             context_text += materials_text + "\n\n"
 
         if catalog_materials:
-            catalog_text = "Catalog Materials:\n" + "\n".join([f"- {mat}" for mat in catalog_materials[:5]])
+            catalog_text = "Catalog Materials:\n" + "\n".join([f"- {mat}" for mat in catalog_materials])
             context_text += catalog_text + "\n\n"
 
         prompt = f"""
@@ -161,7 +174,7 @@ Instructions:
 - Use Catalog Materials to suggest specific materials (e.g., for Cement, use 'Reinforced Concrete (Foundation, Slabs)') and match to JSON products.
 - Be comprehensive but concise. Include prices, availability, GST, ratings where available.
 - Output in structured format:
-Products (list 2-3 most relevant, using catalog for specificity):
+Products (list all relevant, using catalog for specificity):
 1. Name: [name from title or catalog]
    Brand/Model: [brand/model from details]
    Price: [price from JSON]
@@ -171,12 +184,13 @@ Products (list 2-3 most relevant, using catalog for specificity):
    URL: [url]
    Catalog Match: [specific catalog material if applicable]
 
-Vendors (list 2-3):
+Vendors (list all relevant):
 1. Company Name: [from company_info]
    Address: [full_address from seller/company]
-   GST: [gst from company_info] (mention if after 2017)
+   GST: [gst from company_info] (mention if after 2017 based on registration date)
    Rating: [overall_rating from reviews]
    Contact: [if available]
+   Price: [price from JSON with unit]
 
 - If info missing, say "Not specified in JSON context".
 - No fabrication—stick to real JSON data and catalog.
@@ -466,8 +480,7 @@ Answer:
         if not materials:
             return ""
         
-        table = "| Material/Equipment | Quantity | Unit | Cost (Rupees) | Product Details | Catalog Source |\n"
-        table += "|---|---|---|---|---|---|\n"
+        table = "Output of Prediction Model:\nMaterial/ Equipment Quantity Unit Cost (Rupees)\n"
         
         for material in materials:
             quantity_str = material['Quantity']
@@ -480,10 +493,15 @@ Answer:
                 unit = "-"
             
             cost = material.get('Unit Cost (Rupees)', material.get('Cost (Rupees)', 'N/A'))
-            product_details = material.get('product_details', 'No matching product found')
-            catalog_source = material.get('catalog_source', 'N/A')
+            cost_parts = cost.split(' ')
+            if len(cost_parts) > 1:
+                cost_num = cost_parts[0]
+                cost_unit = ' '.join(cost_parts[1:])
+            else:
+                cost_num = cost
+                cost_unit = ""
             
-            table += f"| {material['Material/Equipment']} | {quantity} | {unit} | {cost} | {product_details} | {catalog_source} |\n"
+            table += f"{material['Material/Equipment']} {quantity} {unit} {cost_num} {cost_unit}\n"
         
         return table
 
@@ -847,39 +865,31 @@ def generate_ml_input_from_rag(rag: IndiaMART_RAG, query: str, material: str, es
     return input_data, real_product_data
 
 def generate_timeline(materials: List[Dict], query: str, groq_api_key: str) -> str:
-    material_list = "\n".join([f"- {m['Material/Equipment']}: {m['Quantity']}" for m in materials[:3]])
+    material_list = "\n".join([f"- {m['Material/Equipment']}: {m['Quantity']}" for m in materials])
     prompt = f"""
 Date: October 05, 2025
 Project: {query[:200]}
 Materials (with catalog specifics):
 {material_list}
 
-Generate a COMPLETE procurement timeline in this exact structured Markdown format. IMPORTANT: Generate the ENTIRE timeline without truncation. Use industry-standard lead times for catalog materials.
+Generate a COMPLETE procurement timeline in this exact structured format. IMPORTANT: Generate the ENTIRE timeline without truncation. Use industry-standard lead times for catalog materials.
 
 Output of Procurement Timeline:
 
+Procurement Timeline by Major Categories
 1. Electrical Equipment
-| Item | Lead Time | Order By | Delivery Window | Notes |
-|------|-----------|----------|-----------------|-------|
-| Transformers | 50 weeks | Feb 1, 2026 | Dec 2026 | Potential delays |
-| Switchgear | 40 weeks | Mar 1, 2026 | Nov 2026 | Custom fabrication |
-| Cables | 20 weeks | May 1, 2026 | Sep 2026 | Bulk order |
+Item Lead Time Order By Delivery Window Notes
+Transformers 50 weeks Feb 1, 2026 Dec 2026 Potential delays
+Switchgear 40 weeks Mar 1, 2026 Nov 2026 Custom fabrication
+Cables 20 weeks May 1, 2026 Sep 2026 Bulk order
 
 2. Mechanical Equipment  
-| Item | Lead Time | Order By | Delivery Window | Notes |
-|------|-----------|----------|-----------------|-------|
-| Cement | In-stock | Immediate | Immediate | Standard material |
-| Bricks | 4 weeks | Oct 1, 2025 | Oct 2025 | Local supplier |
-| Chillers | 30 weeks | Apr 1, 2026 | Nov 2026 | Custom size |
+Item Lead Time Order By Delivery Window Notes
+Cement In-stock Immediate Immediate Standard material
+Bricks 4 weeks Oct 1, 2025 Oct 2025 Local supplier
+Chillers 30 weeks Apr 1, 2026 Nov 2026 Custom size
 
-3. Critical Path Schedule
-| Phase | Duration | Start Date | End Date | Key Milestones |
-|-------|----------|------------|----------|----------------|
-| Design | 8 weeks | Jan 2026 | Mar 2026 | Finalize specs |
-| Procurement | 45 weeks | Mar 2026 | Dec 2026 | All materials |
-| Installation | 20 weeks | Jan 2027 | Jun 2027 | Commissioning |
-
-Ensure ALL tables are complete and continue generating until the entire timeline is covered.
+Ensure ALL categories are complete and include all materials from the list.
 """
     try:
         headers = {
@@ -907,7 +917,7 @@ Ensure ALL tables are complete and continue generating until the entire timeline
         return f"Error: {str(e)}"
 
 def generate_schedule(materials: List[Dict], query: str, groq_api_key: str) -> str:
-    material_list = "\n".join([f"- {m['Material/Equipment']}: {m['Quantity']}" for m in materials[:3]])
+    material_list = "\n".join([f"- {m['Material/Equipment']}: {m['Quantity']}" for m in materials])
     prompt = f"""
 Date: October 05, 2025
 Project: {query[:200]}
@@ -919,39 +929,34 @@ Generate a COMPLETE construction schedule in this exact structured Markdown form
 Output of Integrated with Construction Project Schedule:
 
 WBS Level 2: 1. Design & Engineering
-| ID | Task | Duration | Start | Finish | Notes |
-|----|------|----------|-------|--------|-------|
-| 1.1 | Conceptual Design | 30 days | 01-Jan-2026 | 30-Jan-2026 | 30% Design |
-| 1.2 | Detailed Design | 45 days | 01-Feb-2026 | 17-Mar-2026 | 100% Design |
-| 1.3 | Permits Approval | 60 days | 01-Mar-2026 | 30-Apr-2026 | Regulatory |
+ID Task Duration Start Finish Notes
+1.1 Conceptual Design 30 days 01-Jan-2026 30-Jan-2026 30% Design
+1.2 Detailed Design 45 days 01-Feb-2026 17-Mar-2026 100% Design
+1.3 Permits Approval 60 days 01-Mar-2026 30-Apr-2026 Regulatory
 
 WBS Level 2: 2. Site Preparation
-| ID | Task | Duration | Start | Finish | Notes |
-|----|------|----------|-------|--------|-------|
-| 2.1 | Land Clearing | 15 days | 01-May-2026 | 15-May-2026 | Earthwork |
-| 2.2 | Foundation Work | 45 days | 16-May-2026 | 30-Jun-2026 | Excavation |
+ID Task Duration Start Finish Notes
+2.1 Land Clearing 15 days 01-May-2026 15-May-2026 Earthwork
+2.2 Foundation Work 45 days 16-May-2026 30-Jun-2026 Excavation
 
 WBS Level 2: 3. Structural Work
-| ID | Task | Duration | Start | Finish | Notes |
-|----|------|----------|-------|--------|-------|
-| 3.1 | Steel Erection | 60 days | 01-Jul-2026 | 29-Aug-2026 | Framework |
-| 3.2 | Concrete Work | 75 days | 01-Aug-2026 | 14-Oct-2026 | Slabs & walls |
+ID Task Duration Start Finish Notes
+3.1 Steel Erection 60 days 01-Jul-2026 29-Aug-2026 Framework
+3.2 Concrete Work 75 days 01-Aug-2026 14-Oct-2026 Slabs & walls
 
 WBS Level 2: 4. Mechanical & Electrical
-| ID | Task | Duration | Start | Finish | Notes |
-|----|------|----------|-------|--------|-------|
-| 4.1 | Transformer Installation | 15 days | 01-Dec-2026 | 15-Dec-2026 | HV equipment |
-| 4.2 | Switchgear Installation | 20 days | 16-Dec-2026 | 04-Jan-2027 | MV equipment |
-| 4.3 | Cable Laying | 30 days | 05-Jan-2027 | 03-Feb-2027 | Power distribution |
+ID Task Duration Start Finish Notes
+4.1 Transformer Installation 15 days 01-Dec-2026 15-Dec-2026 HV equipment
+4.2 Switchgear Installation 20 days 16-Dec-2026 04-Jan-2027 MV equipment
+4.3 Cable Laying 30 days 05-Jan-2027 03-Feb-2027 Power distribution
 
 WBS Level 2: 5. Finishing & Commissioning
-| ID | Task | Duration | Start | Finish | Notes |
-|----|------|----------|-------|--------|-------|
-| 5.1 | Interior Work | 90 days | 01-Mar-2027 | 29-May-2027 | Final touches |
-| 5.2 | Testing | 30 days | 01-Jun-2027 | 30-Jun-2027 | Systems check |
-| 5.3 | Handover | 15 days | 01-Jul-2027 | 15-Jul-2027 | Project completion |
+ID Task Duration Start Finish Notes
+5.1 Interior Work 90 days 01-Mar-2027 29-May-2027 Final touches
+5.2 Testing 30 days 01-Jun-2027 30-Jun-2027 Systems check
+5.3 Handover 15 days 01-Jul-2027 15-Jul-2027 Project completion
 
-Ensure ALL WBS levels are complete and continue generating until the entire project schedule is covered.
+Ensure ALL WBS levels are complete and continue generating until the entire project schedule is covered, including all materials.
 """
     try:
         headers = {
@@ -993,14 +998,16 @@ def generate_complete_plan_in_chunks(materials: List[Dict], query: str, groq_api
     }
 
 def extract_vendor_details(answer: str) -> str:
-    vendor_match = re.search(r'Vendors:\s*1\.\s*Company Name: (.*?)(?:\s*Address: (.*?)(?:\s*GST: (.*?)(?:\s*Rating: (.*?)(?:\s*Price: (.*))?)?)?)?', answer, re.DOTALL | re.IGNORECASE)
+    # Improved regex to handle new lines and optional fields
+    vendor_match = re.search(r'Vendors \(list .*?\):.*?\n\s*1\.\s*Company Name:\s*(.*?)\n\s*Address:\s*(.*?)\n\s*GST:\s*(.*?)\n\s*Rating:\s*(.*?)\n\s*(?:Contact:\s*(.*?)\n\s*)?(?:Price:\s*(.*))?', answer, re.DOTALL | re.IGNORECASE)
     if vendor_match:
-        company = vendor_match.group(1).strip()
+        company = vendor_match.group(1).strip() if vendor_match.group(1) else "N/A"
         address = vendor_match.group(2).strip() if vendor_match.group(2) else "N/A"
         gst = vendor_match.group(3).strip() if vendor_match.group(3) else "N/A"
         rating = vendor_match.group(4).strip() if vendor_match.group(4) else "N/A"
-        price_info = vendor_match.group(5).strip() if vendor_match.group(5) else "N/A"
-        return f"Company: {company}, Address: {address}, GST: {gst}, Rating: {rating}, Price Info: {price_info}"
+        contact = vendor_match.group(5).strip() if vendor_match.group(5) else "N/A"
+        price_info = vendor_match.group(6).strip() if vendor_match.group(6) else "N/A"
+        return f"Company: {company}, Address: {address}, GST: {gst}, Rating: {rating}, Contact: {contact}, Price Info: {price_info}"
     return "Unknown Vendor"
 
 def plot_gantt_chart(schedule_text: str):
@@ -1010,16 +1017,18 @@ def plot_gantt_chart(schedule_text: str):
     for line in lines:
         if line.startswith('WBS Level 2:'):
             current_section = line
-        elif line.startswith('| ID |') or line.startswith('|----|'):
+        elif line.startswith('ID Task Duration Start Finish Notes') or line.startswith('|----|'):
             continue
-        elif line.startswith('|') and '|' in line:
-            parts = [p.strip() for p in line.split('|')[1:-1]]
-            if len(parts) >= 5:
+        elif ' ' in line and not line.startswith('Output'):
+            parts = re.split(r'\s{2,}', line.strip())
+            if len(parts) >= 6:
+                id_ = parts[0]
                 task = parts[1]
                 duration = parts[2]
                 start = parts[3]
                 finish = parts[4]
-                tasks.append({'Section': current_section, 'Task': task, 'Start': start, 'Finish': finish, 'Duration': duration})
+                notes = ' '.join(parts[5:])
+                tasks.append({'Section': current_section, 'ID': id_, 'Task': task, 'Start': start, 'Finish': finish, 'Duration': duration, 'Notes': notes})
     
     start_dates = []
     durations = []
@@ -1049,6 +1058,21 @@ def plot_gantt_chart(schedule_text: str):
     ax.legend()
     plt.gca().invert_yaxis()
     return fig
+
+def format_vendor_table(materials: List[Dict], vendors: List[str]) -> str:
+    table = "Output of Vendor Identification:\nMaterial/ Equipment Quantity Unit Vendor/Manufacturers\n"
+    for i, mat in enumerate(materials):
+        quantity_str = mat['Quantity']
+        parts = quantity_str.split(' ', 1)
+        if len(parts) == 2:
+            quantity = parts[0]
+            unit = parts[1]
+        else:
+            quantity = quantity_str
+            unit = "-"
+        vendor = vendors[i % len(vendors)] if vendors else "Unknown"
+        table += f"{mat['Material/Equipment']} {quantity} {unit} {vendor}\n"
+    return table
 
 def main():
     st.set_page_config(
@@ -1097,22 +1121,13 @@ def main():
             status_text.text("Generating material estimates...")
             progress_bar.progress(40)
             
-            st.subheader("Query Results")
-            st.write(f"**Answer:**\n{result['answer']}")
-            
-            if result['sources']:
-                with st.expander("Sources"):
-                    for source in result['sources'][:3]:
-                        st.write(f"- {source}")
-            
             material_estimates = result.get('material_estimates', [])
             if material_estimates:
                 status_text.text("Running ML predictions with real JSON data...")
                 progress_bar.progress(60)
                 
-                st.subheader("Material Estimates with ML Predictions (Real Data from JSON + Catalog)")
                 updated_materials = []
-                for mat in material_estimates[:5]:  # Increased to 5 for Transformers and Chillers
+                for mat in material_estimates:  # All materials, no limit
                     quantity_str = mat['Quantity']
                     estimated_qty_match = re.search(r'(\d+)', quantity_str)
                     estimated_qty = int(estimated_qty_match.group(1)) if estimated_qty_match else 100
@@ -1142,37 +1157,32 @@ def main():
                 
                 result['material_estimates'] = updated_materials
                 
-                st.markdown("### Material Estimates (with Real JSON Sources + Catalog)")
                 st.markdown(st.session_state.rag.format_material_table(updated_materials))
                 
                 status_text.text("Identifying vendors...")
                 progress_bar.progress(70)
                 
-                st.subheader("Vendor Identification (with Real Prices from JSON)")
-                vendor_table = "| Material/Equipment | Quantity | Vendor/Manufacturers | Price (from JSON) | Catalog Source |\n|--------------------|----------|----------------------|-------------------|----------------|\n"
-                for mat in updated_materials[:5]:
+                vendors = []
+                for mat in updated_materials:
                     vendor_query = f"Find suppliers for {mat['Material/Equipment']} in {result['requirements']['location'] or 'Navi Mumbai'} with high ratings GST after 2017 available in stock"
                     try:
                         vendor_result = st.session_state.rag.query(vendor_query, k=3, apply_filters=True)
                         vendor = extract_vendor_details(vendor_result['answer'])
-                        price_info = mat.get('product_details', '').split('(Price: ')[1].split(',')[0] if '(Price: ' in mat.get('product_details', '') else "N/A"
-                        catalog_source = mat.get('catalog_source', 'N/A')
+                        vendors.append(vendor)
                     except Exception as e:
-                        vendor = f"Error: {str(e)}"
-                        price_info = "N/A"
-                        catalog_source = mat.get('catalog_source', 'N/A')
-                    vendor_table += f"| {mat['Material/Equipment']} | {mat['Quantity']} | {vendor} | {price_info} | {catalog_source} |\n"
-                st.markdown(vendor_table)
+                        vendors.append(f"Error: {str(e)}")
+                
+                st.markdown(format_vendor_table(updated_materials, vendors))
                 
                 status_text.text("Generating complete project plan...")
                 progress_bar.progress(80)
                 
                 complete_plan = generate_complete_plan_in_chunks(updated_materials, query, st.session_state.rag.groq_api_key)
                 
-                st.subheader("Procurement Timeline")
+                st.subheader("Output of Procurement Timeline:")
                 st.markdown(complete_plan['timeline'])
                 
-                st.subheader("Integrated Project Schedule")
+                st.subheader("Output of Integrated with Construction Project Schedule:")
                 st.markdown(complete_plan['schedule'])
                 
                 status_text.text("Creating visualization...")
